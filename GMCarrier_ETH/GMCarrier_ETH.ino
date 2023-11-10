@@ -77,6 +77,12 @@ void setup() {
 }
 
 void loop() {
+  if (!master.connected()) {
+    master.begin(slaveIP, 502);
+    Serial.print("[ERROR] Unable to connect to slave");
+    delay(100);
+  }
+
   if (digitalRead(DEMAND)) {if(!debouncer0){ debouncer0 = millis(); }}
   else{debouncer0 = 0;}
   if (millis() - debouncer0 > 150 && debouncer0){ dmd = true; }
