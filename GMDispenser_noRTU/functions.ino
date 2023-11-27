@@ -2,10 +2,10 @@ void flashAmberFunc(unsigned long inter){
   if (!flashTimer1 && flashAmber) { flashTimer1 = millis(); }
   if (millis() - flashTimer1 > inter && flashAmber) {
     tog[2] = !tog[2];
-    bitWrite(sendByte, 3, tog[2]);
+    digitalWrite(AL, tog[2]?HIGH:LOW);
     flashTimer1 = millis();
   } else if (!flashAmber && flashTimer1) {
-    bitClear(sendByte, 3);
+    digitalWrite(AL, LOW);
     flashTimer1 = 0;
   }
 }
@@ -13,10 +13,10 @@ void flashRedFunc(unsigned long inter){
   if (!flashTimer2 && flashRed) { flashTimer2 = millis(); }
   if (millis() - flashTimer2 > inter && flashRed) {
     tog[3] = !tog[3];
-    bitWrite(sendByte, 4, tog[3]);
+    digitalWrite(RL, tog[3]?HIGH:LOW);
     flashTimer2 = millis();
   } else if (!flashRed && flashTimer2) {
-    bitClear(sendByte, 4);
+    digitalWrite(RL, LOW);
     flashTimer2 = 0;
   }
 }
@@ -24,50 +24,19 @@ void daughterPrint(unsigned long inter){
   if (!daughterTimer) { daughterTimer = millis(); }
   if (millis() - daughterTimer > inter && daughterTimer) {
     daughterTimer = millis();
-    checkTCP(false);
+    //checkTCP(false);
     bigMatrix[0].writeInt(currentPressure);  // Write local pressure values to 7-seg screen
     smallMatrix[0].squareDisplay(0);
-    bigMatrix[1].writeInt(HMI_targetPressure);
+   // bigMatrix[1].writeInt(HMI_targetPressure);
     smallMatrix[1].squareDisplay(0);
     smallMatrix[2].squareDisplay(0);
   }
 }
 void transceiveTCP() {
-  bitWrite(readByte,0,digitalRead(GB));
-  bitWrite(readByte,1,digitalRead(RB));
-  bitWrite(readByte,2,digitalRead(LSR));
-  bitWrite(readByte,3,digitalRead(GSR));
-  bitWrite(readByte,4,digitalRead(DMD));
-  bitWrite(readByte,5,digitalRead(OK));
-
-  digitalWrite(VALVE,bitRead(sendByte,1));
-  digitalWrite(GL,bitRead(sendByte,2));
-  digitalWrite(AL,bitRead(sendByte,3));
-  digitalWrite(RL,bitRead(sendByte,4));
-  //HMI.coilWrite(3,0);
-  //HMI.coilWrite(7,bitRead(sendByte,4)); 
-  HMI.coilWrite(1,!bitRead(readByte,2)); //lsr
-  HMI.coilWrite(2,0);//!bitRead(readByte,3)); //gsr
-  if((HMI.coilRead(4) || mb.Hreg(10)) && STATE == IDLE_OFF){
-    STATE = OUT_OF_ORDER;
-  }
-
-  if(STATE == IDLE_OFF){
-    bitWrite(sendByte,0,HMI.coilRead(3)?1:0);
-    double timeout = HMI.holdingRegisterRead(11);
-    if(timeout && timeout != TIME_OUT){
-      TIME_OUT = timeout;
-    }
-    if(HMI.holdingRegisterRead(13) != modID){resetFunc();}
-    double target = HMI.holdingRegisterRead(1);
-    if (target && !targetOverride) { HMI_targetPressure = target; }
-    if (targetOverride) { HMI_targetPressure = targetOverride; }
-  }
   
-  //if(HMI.coilRead(13) || HMI.coilRead(14)){Serial.println("received hmi errors 1 and 2"); virtualAmberButton = true;}
-
+  HMI.coilWrite(0,!digitalRead(LSR));//lsr
   HMI.holdingRegisterWrite(0,displayState);
-  HMI.holdingRegisterWrite(2,currentPressure);
+  HMI.holdingRegisterWrite(1,currentPressure);
 
 }
 
@@ -107,4 +76,21 @@ void pinModeSetup() {
 
   pinMode(TRACO_24VDC, OUTPUT);
   digitalWrite(TRACO_24VDC, HIGH);
+
+  pinMode(GB, INPUT_PULLUP);
+  pinMode(RB, INPUT_PULLUP);
+  pinMode(LSR, INPUT_PULLUP);
+//  pinMode(ESTOP, INPUT_PULLUP);
+
+  pinMode(VALVE, OUTPUT);
+  digitalWrite(VALVE,LOW);
+  
+  pinMode(GL, OUTPUT);
+  digitalWrite(GL,LOW);
+  
+  pinMode(AL, OUTPUT);
+  digitalWrite(AL,LOW);
+
+  pinMode(RL, OUTPUT);
+  digitalWrite(RL,LOW);
 }

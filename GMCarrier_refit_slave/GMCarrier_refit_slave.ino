@@ -21,7 +21,7 @@ void setup() {
   mb.begin(&Serial3,RE_DE3);
   mb.setBaudrate(9600);
   mb.slave(3);
-  mb.addHreg(0,0,15);
+  mb.addHreg(0,0,20);
   
   for (int i = 0; i < MOVING_AVG_SIZE; i++){
     bank1RA.addValue((analogRead(ACT1_PRESS) - 200.0) / 0.084); // Grab pressure sensor values and convert to psi
@@ -50,8 +50,8 @@ void loop() {
   bank1Pt = mb.Hreg(11);
   bank2Pt = mb.Hreg(12);
   man1Pt = mb.Hreg(13);
-  vehPsi = mb.Hreg(14);
-  int temp = mb.Hreg(15);
+  //vehPsi = mb.Hreg(14);
+  int temp = mb.Hreg(14);
   if(temp){MOVING_AVG_SIZE = temp;}
 
   if(activeBank){Serial.println("Master Carrier has overriden Bank control. Please wait until Master is finished"); overrideBank = 0;}

@@ -13,7 +13,7 @@ RunningAverage bank3RA(MOVING_AVG_SIZE);
 RunningAverage bank4RA(MOVING_AVG_SIZE);
 RunningAverage man1RA(MOVING_AVG_SIZE);
 RunningAverage man2RA(MOVING_AVG_SIZE);
-
+//Serial3 is middle
 void (*resetFunc)(void) = 0;  // Allows hard reset of arduino through software
 
 void setup() {
@@ -99,7 +99,7 @@ void loop() {
   switch (STATE) {
     case ORDER_BANKS:
       for (int i = 0; i < 4; i++) {  // check if any of our pressures are zero, if so we need to read them again
-        if (banks[i].pressure && MIN_ALLOWED_PRESSURE <= banks[i].pressure <= 10000 && banks[i].allowed){;}
+        if (banks[i].pressure && MIN_ALLOWED_PRESSURE <= banks[i].pressure <= 10000){;}
         else {
           if (errcnt > 100) {
             banks[i].allowed = false;
@@ -122,17 +122,6 @@ void loop() {
         else{digitalWrite(RLY2, LOW); digitalWrite(RLY3, LOW);}
       }
 
-      if(!timer[4]){timer[4] = millis();}
-      if(millis() - timer[4] > 20000 && timer[4]){ //run this continually after 20 seconds of inactivity
-        timer[4] = 0;
-        count = 0;
-
-        if(fillTime){ //run this once after the 20 seconds
-          fillTime = 0;
-          STATE = ORDER_BANKS;
-        }
-      }
-
       if(dmdOverride || dmd){
         STATE = CASCADE;
         timer[4] = 0;
@@ -140,7 +129,6 @@ void loop() {
       break;
 
     case CASCADE:
-      if(!fillTime){fillTime = millis();}//fill timer
 
       if (dmd || dmdOverride) {
         if (!activeBank) {  // Check if the bank we are concerned with is already open
@@ -149,9 +137,7 @@ void loop() {
           timer[0] = millis();
         }
         else {                                                                     // If the bank in question is already on
-          if (millis() - timer[0] > 1000 && timer[0] && banks[count].pressure < MIN_ALLOWED_PRESSURE) {  // wait one second then check if we are stalling in pressure
-            banks[count].finalPsi = banks[count].pressure;
-            banks[count].bankTime = millis() - timer[0];
+          if (millis() - timer[0] > 3000 && timer[0] && banks[count].pressure < MIN_ALLOWED_PRESSURE) {  // wait one second then check if we are stalling in pressure
             activeBank = 0;
             if(count >= numBanks - 1){STATE = IDLE_ON;}
             else{count++;}
@@ -171,8 +157,9 @@ void loop() {
       break;
 
     case IDLE_ON:
-      if (!dmd && !dmdOverride) { STATE = IDLE_OFF; }
-      count = 99;
+      if (!dmd && !dmdOverride) {digitalWrite(ESTOP_BREAK,HIGH); STATE = ORDER_BANKS; }
+      else{digitalWrite(ESTOP_BREAK,LOW);}
+      count = 0;
       break;
 
     default:

@@ -70,9 +70,9 @@ void transceiveRTU() {
   mbLocal.setTransmitBuffer(1, bank1Pt);
   mbLocal.setTransmitBuffer(2, bank2Pt);
   mbLocal.setTransmitBuffer(3, man1Pt);
-  mbLocal.setTransmitBuffer(4, vehPsi);
-  mbLocal.setTransmitBuffer(5, MOVING_AVG_SIZE);
-  uint8_t result = mbLocal.readWriteMultipleRegisters(0,5,10,6);
+  //mbLocal.setTransmitBuffer(4, vehPsi);
+  mbLocal.setTransmitBuffer(4, MOVING_AVG_SIZE);
+  uint8_t result = mbLocal.readWriteMultipleRegisters(0,5,10,5);
   if (result == mbLocal.ku8MBSuccess) {
     bank3Pt = mbLocal.getResponseBuffer(0);
     bank4Pt = mbLocal.getResponseBuffer(1);
