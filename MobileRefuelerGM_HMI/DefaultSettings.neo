@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.50.73.0' LastConverterVersion='2.50.1'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.Recipe, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" SchemaVersion="55" DataVersion="6" Guid="125ab741-1fec-4576-987b-a9d11482c7c1" TableName="DefaultSettings" d1p1:Site.Name="DefaultSettings" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+    <RecipeItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="targetPressure700" DataConnection="Tags.TargetPressure700" ColumnName="targetPressure700" VisualSortOrder="2" d1p1:Site.Name="targetPressure700" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="10000" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="stall_threshold" DataConnection="Tags.STALL_THRESHOLD" ColumnName="stall_threshold" VisualSortOrder="3" d1p1:Site.Name="stall_threshold" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="10" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="min_allowed_pressure" DataConnection="Tags.MIN_ALLOWED_PRESSURE" ColumnName="min_allowed_pressure" VisualSortOrder="4" d1p1:Site.Name="min_allowed_pressure" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1000" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="delata_psi_time" DataConnection="Tags.DELTA_PSI_TIME" ColumnName="delata_psi_time" VisualSortOrder="5" d1p1:Site.Name="delata_psi_time" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="3000" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="fill_timeout" DataConnection="Tags.FILL_TIMEOUT" ColumnName="fill_timeout" VisualSortOrder="7" d1p1:Site.Name="fill_timeout" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="120" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="second_check" DataConnection="Tags.SECOND_CHECK" ColumnName="second_check" VisualSortOrder="8" d1p1:Site.Name="second_check" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="75" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="carr_moving_avg_size" DataConnection="Tags.CARR_MOVING_AVG" ColumnName="carr_moving_avg_size" VisualSortOrder="9" d1p1:Site.Name="carr_moving_avg_size" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="10" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="disp_moving_avg_size" DataConnection="Tags.DISP_MOVING_AVG" ColumnName="disp_moving_avg_size" VisualSortOrder="10" d1p1:Site.Name="disp_moving_avg_size" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="15" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="targetPressure350" DataConnection="Tags.TargetPressure350" ColumnName="targetPressure350" VisualSortOrder="11" d1p1:Site.Name="targetPressure350" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="5000" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="psi_tol" DataConnection="Tags.PSI_LOSS_TOL" ColumnName="psi_tol" VisualSortOrder="12" d1p1:Site.Name="psi_tol" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="500" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="h2_toll" DataConnection="Tags.H2SNIFFER_TOL" ColumnName="h2_toll" VisualSortOrder="13" d1p1:Site.Name="h2_toll" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="285" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+    </RecipeItems>
+    <FieldNames>
+      <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Default" />
+    </FieldNames>
+  </Object>
+</NeoItem>

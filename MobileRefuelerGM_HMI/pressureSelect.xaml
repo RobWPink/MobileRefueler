@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.50.73.0' LastConverterVersion='2.50.1'?>
+<nacs:ScreenWindow Title="pressureSelect" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="800, 480" ScreenID="7" StyleName="Default" IsCacheable="True" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacsd="clr-namespace:Neo.ApplicationFramework.Controls.Screen.Design;assembly=Controls" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:s="clr-namespace:System;assembly=mscorlib" x:Class="Neo.ApplicationFramework.Generated.pressureSelect">
+  <nacs:ScreenWindow.Background>
+    <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+      <LinearGradientBrush.GradientStops>
+        <GradientStopCollection>
+          <GradientStop Color="#FF65B4DA" Offset="0" />
+          <GradientStop Color="#FFE0F0F7" Offset="1" />
+        </GradientStopCollection>
+      </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+  </nacs:ScreenWindow.Background>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nacs1:Picture SymbolName="logo (1)" Name="m_Picture1" Width="207" Height="32" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="15" Canvas.Top="14" nacsd:EditorProperties.IsLocked="True" />
+    <nac:DigitalClock ShowDayOfWeek="False" FontFamily="Tahoma" FontSize="20" Name="m_DigitalClock1" Width="100" MinWidth="207.756666666667" Height="30" MinHeight="24.14" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="569" Canvas.Top="15" nacsd:EditorProperties.IsLocked="True" />
+    <nac:Button Text="50 BAR Continuous Fill" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Arial Black" FontSize="24" Name="m_Button" Width="648" Height="81" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="75" Canvas.Top="96" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.PressureSetting" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int16>50</s:Int16>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="Home" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="350 BAR Fill" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Arial Black" FontSize="24" Name="m_Button1" Width="648" Height="81" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="75" Canvas.Top="205" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.PressureSetting" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int16>300</s:Int16>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="Home" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="700 BAR Fill" RequiresTransparency="True" SymbolTransparent="False" FontFamily="Arial Black" FontSize="24" Name="m_Button2" Width="648" Height="81" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="75" Canvas.Top="314" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.PressureSetting" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int16>700</s:Int16>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="Home" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nacs1:Picture SymbolName="kisspng-picsart-photo-studio-editing-bubbles-png-clipart-5a79e3fe09a6d6.9350477015179376620395" Transparent="True" Name="m_Picture3" Width="813" Height="610" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="1" Canvas.Top="-112" nacsd:EditorProperties.IsLocked="True" nacsd:EditorProperties.IsHidden="False" />
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

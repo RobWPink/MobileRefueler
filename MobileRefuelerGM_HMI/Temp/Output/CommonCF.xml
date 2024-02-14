@@ -1,0 +1,2485 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonCF</name>
+    </assembly>
+    <members>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.BoolComparer.Compare(System.Boolean,Neo.ApplicationFramework.Interfaces.ComparerTypes)">
+            <summary>
+            Compares the specified value.
+            </summary>
+            <param name="value">if set to <c>true</c> [value].</param>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Boundary.BoolComparer.Value">
+            <summary>
+            Gets the previous value.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.ComparerBase`1.Compare(`0,Neo.ApplicationFramework.Interfaces.ComparerTypes)">
+            <summary>
+            Test if a comparison is true.
+            </summary>
+            <param name="value">The value on the left hand side of the comparison.</param>
+            <param name="type">The comparison type.</param>
+            <returns>True if conditions are met.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.DecimalComparer.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DecimalComparer" /> class.
+            </summary>
+            <param name="value">The value to be used on the right hand side of the comparisons.</param>
+            <param name="deadband">A possible deadband in 'equal to' comparisons.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.DecimalComparer.Compare(System.Decimal,Neo.ApplicationFramework.Interfaces.ComparerTypes)">
+            <summary>
+            Test if a comparison is true.
+            </summary>
+            <param name="value">The value on the left hand side of the comparison.</param>
+            <param name="type">The comparison type.</param>
+            <returns>True if conditions are met.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.DoubleComparer.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DoubleComparer" /> class.
+            </summary>
+            <param name="value">The value to be used on the right hand side of the comparisons.</param>
+            <param name="deadband">A possible deadband in 'equal to' comparisons.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.DoubleComparer.Compare(System.Double,Neo.ApplicationFramework.Interfaces.ComparerTypes)">
+            <summary>
+            Test if a comparison is true.
+            </summary>
+            <param name="value">The value on the left hand side of the comparison.</param>
+            <param name="type">The comparison type.</param>
+            <returns>True if conditions are met.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.IComparer`1.Compare(`0,Neo.ApplicationFramework.Interfaces.ComparerTypes)">
+            <summary>
+            Test if a comparison is true.
+            </summary>
+            <param name="value">The value on the left hand side of the comparison.</param>
+            <param name="type">The comparison type.</param>
+            <returns>True if conditions are met.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.IntComparer.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IntComparer" /> class.
+            </summary>
+            <param name="value">The value to be used on the right hand side of the comparisons.</param>
+            <param name="deadband">A possible deadband in 'equal to' comparisons.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Boundary.IntComparer.Compare(System.Int32,Neo.ApplicationFramework.Interfaces.ComparerTypes)">
+            <summary>
+            Test if a comparison is true.
+            </summary>
+            <param name="value">The value on the left hand side of the comparison.</param>
+            <param name="type">The comparison type.</param>
+            <returns>True if conditions are met.</returns>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.CompanyName">
+            <summary>
+            MUST MATCH CONTENT IN BRANDING.WXI! The company owning the product.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DriverTargetInfoBrand">
+            <summary>
+            Used to identify specific features in drivers, e.g. Mitsubishi CPU protocol.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DriverTargetInfoHMIseries">
+            <summary>
+            Used to identify specific features in drivers, e.g. Mitsubishi CPU protocol.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DriverTargetInfoProgram">
+            <summary>
+            Used to identify specific features in drivers, e.g. Mitsubishi CPU protocol.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.FileExtension">
+            <summary>
+            The file extension for designer files.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.HomePage">
+            <summary>
+            The URL to the company homepage, e.g. about dialog.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.InformationDesignerProductName">
+            <summary>
+            The name of the old Information Designer product. Support for importing Information Designer project will be disabled when left empty.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProductName">
+            <summary>
+            MUST MATCH CONTENT IN BRANDING.WXI! The product name.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProductNameWithoutVersionNumber">
+            <summary>
+            DO NOT ADD VERSION NUMBER TO THIS!
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProductVersion">
+            <summary>
+            The product version, used as display version, shown in designer.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProjectFileExtension">
+            <summary>
+            The file extension of the main project file, which is associated with this specific branded product in installation.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.RegistrationUrl">
+            <summary>
+            The URL of the homepage for registration.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ScreenFileExtension">
+            <summary>
+            The file extension for screen designer files.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.SupportedDrivers">
+            <summary>
+            Bitwise flag for identifying supported drivers for the application
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.UpdateDriverWWWAddress">
+            <summary>
+            The relative URL part that identifies the brand specific diver download file.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.PanelBrandID">
+            <summary>
+            The unique panel brand ID used to idenfity target when transfering a project. Reads FID data from panel.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.BrandName">
+            <summary>
+            Name of brand that must match the specific brand folder containing the brand specific files.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.RegistrationCodeSeed">
+            <summary>
+            Unique brand prefix used to differentiate product in registration key.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.SplashProgressBarBottom">
+            <summary>
+            The bottom position of the progressbar in splash screen.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.SplashProgressBarLeft">
+            <summary>
+            The left position of the progressbar in splash screen.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.MsiUpgradeCode">
+            <summary>
+            Upgradecode used by installation to identify product independent of versions. Is used to get the trial installation date.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DetailedProductName">
+            <summary>
+            MUST MATCH THE STRING USED FOR FINDING THE MAIN WINDOW IN THE SYSTEM TESTS!
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DetailedRuntimeProductName">
+            <summary>
+            The runtime product name.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProductFamilyName">
+            <summary>
+            MUST MATCH CONTENT IN BRANDING.WXI!
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.PreviousProductFamilyNames">
+            <summary>
+            Previous versions that have a compatible registration key
+            PUT THE LATEST VERSION FIRST!
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.AutoImportPreviousSettings">
+            <summary>
+            States if the settings (License key, features, recent files) should be auto imported (without a dialog) from a previous installation
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProductFolderName">
+            <summary>
+            MUST MATCH CONTENT IN BRANDING.WXI!
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProductFolderNamePart">
+            <summary>
+            Part because position is language dependent to be either prefix or suffix, Brandunique name applies here
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.HomePageDescription">
+            <summary>
+            The description of the URL to the company homepage, e.g. about dialog.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ShowUsersGuideLink">
+            <summary>
+            Bool for showing/hiding the User's Guide link in the VersionInfoBox splash screen shown after update. 1 for show and 0 for collapse.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ShowThirdPartyLicensesText">
+            <summary>
+            Bool for showing/hiding the Third Party Licenses link in the VersionInfoBox splash screen shown after update. 1 for show and 0 for collapse.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.AllowTrialMode">
+            <summary>
+            Bool for showing/hiding the trial mode option in registration window. 1 for show/allow, 0 for deny/hide. Since the feature API is not activated yet, we have to solve it this way.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DetailedProductNameIntegratorClient">
+            <summary>
+            The branded, detailed name for the integrator client product. Only used in UI.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DetailedProductNameIntegratorMaster">
+            <summary>
+            The branded, detailed name for the integrator master product. Only used in UI.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ProductFeatureId">
+            <summary>
+            The feature id of the branded product.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.RuntimeProductFeatureId">
+            <summary>
+            The feature id of the branded runtime product.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DetailedProductNameServiceTool">
+            <summary>
+            The branded, detailed name for the integrator service tool product. Only used in UI.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.OldVersion220SP2">
+            <summary>
+            An old product version number used in welcome list of new changes in release
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.OldVersion20">
+            <summary>
+            An old product version number used in welcome list of new changes in release
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.OldVersion1dotx">
+            <summary>
+            An old product version number used in welcome list of new changes in release
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.OldVersion230">
+            <summary>
+            An old product version number used in welcome list of new changes in release
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.OldVersion230SP1">
+            <summary>
+            An old product version number used in welcome list of new changes in release
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.OldVersion240">
+            <summary>
+            An old product version number used in welcome list of new changes in release
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.OldVersion240SP1">
+            <summary>
+            An old product version number used in welcome list of new changes in release
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.StructuredTagsIsSupported">
+            <summary>
+            States if structured tags is supported
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ShowEulaDocumentation">
+            <summary>
+            Bool for showing/hiding the EULA link in the VersionInfoBox splash screen shown after update. 1 for show and 0 for collapse.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.DriverCategory">
+            <summary>
+            Used to select which component category in the windows registry to use for finding installed drivers.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Brand.BrandConstants.ShowVersionInfoBox">
+            <summary>
+            Bool for showing/hiding VersionInfoBox shown during the startup of the application
+            Hiding this dialog also hides the user configurable option to hide the same in the application
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Collections.ExtendedBindingList`1">
+            <summary>
+            Class to provide the binding and hooking mechanism for event handlers, which are being used to notify the properties change of list items.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Collections.FilteredList`1">
+            <summary>
+            Class to be used when working with a subset of a full list
+            The filter delegate is passed in the constructor
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.FilteredList`1.GetItemProperties(System.ComponentModel.PropertyDescriptor[])">
+            <summary>
+            Make sure a new PropertyDescriptorCollection is created and returned, we should not 
+            modify the cached PropertyDescriptorCollection returned by TypeDescriptor.GetProperties.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.LfuCache`2.#ctor(System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+            <summary></summary>
+            <param name="size"></param>
+            <param name="agePolicy">after this number of gets the cache will take 1 off all UseCounts, forcing old stuff to expire.</param>
+            <param name="equalityComparer"></param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Collections.NotifiableCollection`1">
+            <summary>
+            Listens for PropertyChanged among the children and propagates it when it happens.
+            </summary>
+            <typeparam name="T">Any type that implements INotifyPropertyChanged.</typeparam>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Collections.OwnedList`1">
+            <summary>
+            Class that implements a generic list that automatically adds and removes
+            components to the container that the Owner resides in. Use it to implement a 
+            designer collection property.
+            </summary>
+            <typeparam name="T">The type of items in the collection. Must implement IComponent.</typeparam>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Collections.OwnedList`1.Owner">
+            <summary>
+            The owner of the collection.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Collections.OwnedList`1.Container">
+            <summary>
+            Helper function that gets the container.
+            </summary>
+            <value>The container.</value>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.OwnedList`1.#ctor(System.ComponentModel.IComponent)">
+            <summary>
+            Initializes a new instance of the OwnedList class.
+            </summary>
+            <param name="owner">The owner.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.OwnedList`1.#ctor(System.ComponentModel.IComponent,System.Type)">
+            <summary>
+            Initializes a new instance of the OwnedList class.
+            Used if the typed elements are of interface type
+            </summary>
+            <param name="owner"></param>
+            <param name="typeToCreate"></param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.OwnedList`1.RemoveItem(System.Int32)">
+            <summary>
+            Removes the item at the specified index.
+            Also removes the item from the owning container.
+            </summary>
+            <param name="index">The zero-based index of the item to remove.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.OwnedList`1.ClearItems">
+            <summary>
+            Removes all items.
+            Also removes the items from the owning container.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.OwnedList`1.InsertItem(System.Int32,`0)">
+            <summary>
+            Inserts the specified item in the list at the specified index.
+            Also adds the item to the owning container.
+            </summary>
+            <param name="index">The zero-based index where the item is to be inserted.</param>
+            <param name="item">The item to insert in the list.</param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Collections.StringComparableList`1">
+            <summary>
+            A list that compares contained items by their combined string value.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Collections.StringComparableList`1.ToString">
+            <summary>
+            Combines each item's <see cref="M:System.Object.ToString" /> value to sorted string.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Collections.ValidatingBindingList`1">
+            <summary>
+            An <see cref="T:Neo.ApplicationFramework.Common.Collections.ExtendedBindingList`1" /> whose property change will be 
+            validated with the <see cref="T:Neo.ApplicationFramework.Interfaces.IPropertyValidator`1" /> provided.
+            </summary>
+            <typeparam name="T">Type of the binding list</typeparam>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.CommandLine.CommandLineParser.CheckSwitch(System.String,System.String[])">
+            <summary>
+            Checks if the commandLineargument has been passed to the application
+            it adds / or - so if you check for "test" 
+            the passed argument checked for is "-test" or "/test"
+            </summary>
+            <param name="commandLineArgument"></param>
+            <param name="arguments"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.CommandLine.CommandLineParser.GetSwitchArgumentParameter(System.String,System.String[])">
+            <summary>
+            Checks if the commandLineargument has been passed to the application
+            it adds / or - so if you check for "test" 
+            the passed argument checked for is "-test" or "/test"
+            the passed parameter to the argument is passed with '=' e.g. /ImportTags="ImportFile.txt" 
+            returns switch argument parameter if found else string.Empty
+            </summary>
+            <param name="commandLineArgument"></param>
+            <param name="arguments"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Constants.SymbolConstants.SupportedImagePatterns">
+            <summary>
+            Returns an array of supported image file patterns for searching and filtering. For example : {*.bmp, *.jpg}
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Constants.SymbolConstants.SupportedSymbolPatterns">
+            <summary>
+            Returns an array of supported symbol file patterns for searching and filtering. For example : {*.png, *.lib}
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_INPUTLANGCHANGEREQUEST">
+            WM_INPUTLANGCHANGEREQUEST -&gt; 0x0050
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHOOSEFONT_SETLOGFONT">
+            WM_CHOOSEFONT_SETLOGFONT -&gt; (WM_USER + 101)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHOOSEFONT_GETLOGFONT">
+            WM_CHOOSEFONT_GETLOGFONT -&gt; (WM_USER + 1)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_STARTCOMPOSITION">
+            WM_IME_STARTCOMPOSITION -&gt; 0x010D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_COMPOSITIONFULL">
+            WM_IME_COMPOSITIONFULL -&gt; 0x0284
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHOOSEFONT_SETFLAGS">
+            WM_CHOOSEFONT_SETFLAGS -&gt; (WM_USER + 102)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PSD_YAFULLPAGERECT">
+            WM_PSD_YAFULLPAGERECT -&gt; (WM_USER+6)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_ENDCOMPOSITION">
+            WM_IME_ENDCOMPOSITION -&gt; 0x010E
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_WTSSESSION_CHANGE">
+            WM_WTSSESSION_CHANGE -&gt; 0x02B1
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_WINDOWPOSCHANGING">
+            WM_WINDOWPOSCHANGING -&gt; 0x0046
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PSD_MINMARGINRECT">
+            WM_PSD_MINMARGINRECT -&gt; (WM_USER+2)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PSD_GREEKTEXTRECT">
+            WM_PSD_GREEKTEXTRECT -&gt; (WM_USER+4)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PALETTEISCHANGING">
+            WM_PALETTEISCHANGING -&gt; 0x0310
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CTLCOLORSCROLLBAR">
+            WM_CTLCOLORSCROLLBAR -&gt; 0x0137
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_WINDOWPOSCHANGED">
+            WM_WINDOWPOSCHANGED -&gt; 0x0047
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_VSCROLLCLIPBOARD">
+            WM_VSCROLLCLIPBOARD -&gt; 0x030A
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_RENDERALLFORMATS">
+            WM_RENDERALLFORMATS -&gt; 0x0306
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PSD_PAGESETUPDLG">
+            WM_PSD_PAGESETUPDLG -&gt; (WM_USER  )
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PSD_FULLPAGERECT">
+            WM_PSD_FULLPAGERECT -&gt; (WM_USER+1)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PSD_ENVSTAMPRECT">
+            WM_PSD_ENVSTAMPRECT -&gt; (WM_USER+5)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_HSCROLLCLIPBOARD">
+            WM_HSCROLLCLIPBOARD -&gt; 0x030E
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DESTROYCLIPBOARD">
+            WM_DESTROYCLIPBOARD -&gt; 0x0307
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_UNINITMENUPOPUP">
+            WM_UNINITMENUPOPUP -&gt; 0x0125
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_QUERYNEWPALETTE">
+            WM_QUERYNEWPALETTE -&gt; 0x030F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_QUERYENDSESSION">
+            WM_QUERYENDSESSION -&gt; 0x0011
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCXBUTTONDBLCLK">
+            WM_NCXBUTTONDBLCLK -&gt; 0x00AD
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCRBUTTONDBLCLK">
+            WM_NCRBUTTONDBLCLK -&gt; 0x00A6
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCMBUTTONDBLCLK">
+            WM_NCMBUTTONDBLCLK -&gt; 0x00A9
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCLBUTTONDBLCLK">
+            WM_NCLBUTTONDBLCLK -&gt; 0x00A3
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_INPUTLANGCHANGE">
+            WM_INPUTLANGCHANGE -&gt; 0x0051
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_COMPOSITION">
+            WM_IME_COMPOSITION -&gt; 0x010F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CTLCOLORLISTBOX">
+            WM_CTLCOLORLISTBOX -&gt; 0x0134
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ASKCBFORMATNAME">
+            WM_ASKCBFORMATNAME -&gt; 0x030C
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SYSCOLORCHANGE">
+            WM_SYSCOLORCHANGE -&gt; 0x0015
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PSD_MARGINRECT">
+            WM_PSD_MARGINRECT -&gt; (WM_USER+3)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_POWERBROADCAST">
+            WM_POWERBROADCAST -&gt; 0x0218
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PALETTECHANGED">
+            WM_PALETTECHANGED -&gt; 0x0311
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PAINTCLIPBOARD">
+            WM_PAINTCLIPBOARD -&gt; 0x0309
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDIREFRESHMENU">
+            WM_MDIREFRESHMENU -&gt; 0x0234
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDIICONARRANGE">
+            WM_MDIICONARRANGE -&gt; 0x0228
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_SETCONTEXT">
+            WM_IME_SETCONTEXT -&gt; 0x0281
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ICONERASEBKGND">
+            WM_ICONERASEBKGND -&gt; 0x0027
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CTLCOLORSTATIC">
+            WM_CTLCOLORSTATIC -&gt; 0x0138
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CTLCOLORMSGBOX">
+            WM_CTLCOLORMSGBOX -&gt; 0x0132
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CAPTURECHANGED">
+            WM_CAPTURECHANGED -&gt; 0x0215
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_XBUTTONDBLCLK">
+            WM_XBUTTONDBLCLK -&gt; 0x020D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_UPDATEUISTATE">
+            WM_UPDATEUISTATE -&gt; 0x0128
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_STYLECHANGING">
+            WM_STYLECHANGING -&gt; 0x007C
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SPOOLERSTATUS">
+            WM_SPOOLERSTATUS -&gt; 0x002A
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SIZECLIPBOARD">
+            WM_SIZECLIPBOARD -&gt; 0x030B
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETTINGCHANGE">
+            WM_SETTINGCHANGE -&gt; WM_WININICHANGE
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_RBUTTONDBLCLK">
+            WM_RBUTTONDBLCLK -&gt; 0x0206
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_QUERYDRAGICON">
+            WM_QUERYDRAGICON -&gt; 0x0037
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCXBUTTONDOWN">
+            WM_NCXBUTTONDOWN -&gt; 0x00AB
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCRBUTTONDOWN">
+            WM_NCRBUTTONDOWN -&gt; 0x00A4
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCMBUTTONDOWN">
+            WM_NCMBUTTONDOWN -&gt; 0x00A7
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCLBUTTONDOWN">
+            WM_NCLBUTTONDOWN -&gt; 0x00A1
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOUSEACTIVATE">
+            WM_MOUSEACTIVATE -&gt; 0x0021
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MENURBUTTONUP">
+            WM_MENURBUTTONUP -&gt; 0x0122
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MENUGETOBJECT">
+            WM_MENUGETOBJECT -&gt; 0x0124
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MBUTTONDBLCLK">
+            WM_MBUTTONDBLCLK -&gt; 0x0209
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_LBUTTONDBLCLK">
+            WM_LBUTTONDBLCLK -&gt; 0x0203
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_INITMENUPOPUP">
+            WM_INITMENUPOPUP -&gt; 0x0117
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_HANDHELDFIRST">
+            WM_HANDHELDFIRST -&gt; 0x0358
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETTEXTLENGTH">
+            WM_GETTEXTLENGTH -&gt; 0x000E
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETMINMAXINFO">
+            WM_GETMINMAXINFO -&gt; 0x0024
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ENTERSIZEMOVE">
+            WM_ENTERSIZEMOVE -&gt; 0x0231
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ENTERMENULOOP">
+            WM_ENTERMENULOOP -&gt; 0x0211
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DRAWCLIPBOARD">
+            WM_DRAWCLIPBOARD -&gt; 0x0308
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DISPLAYCHANGE">
+            WM_DISPLAYCHANGE -&gt; 0x007E
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DEVMODECHANGE">
+            WM_DEVMODECHANGE -&gt; 0x001B
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_TERMINATE">
+            WM_DDE_TERMINATE -&gt; (WM_DDE_FIRST+1)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHILDACTIVATE">
+            WM_CHILDACTIVATE -&gt; 0x0022
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHANGEUISTATE">
+            WM_CHANGEUISTATE -&gt; 0x0127
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHANGECBCHAIN">
+            WM_CHANGECBCHAIN -&gt; 0x030D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CANCELJOURNAL">
+            WM_CANCELJOURNAL -&gt; 0x004B
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_BOTTOMRIGHT">
+            WMSZ_BOTTOMRIGHT -&gt; 8
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_WININICHANGE">
+            WM_WININICHANGE -&gt; 0x001A
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_THEMECHANGED">
+            WM_THEMECHANGED -&gt; 0x031A
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_TABLET_FIRST">
+            WM_TABLET_FIRST -&gt; 0x02c0
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_STYLECHANGED">
+            WM_STYLECHANGED -&gt; 0x007D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_RENDERFORMAT">
+            WM_RENDERFORMAT -&gt; 0x0305
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_QUERYUISTATE">
+            WM_QUERYUISTATE -&gt; 0x0129
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PARENTNOTIFY">
+            WM_PARENTNOTIFY -&gt; 0x0210
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NOTIFYFORMAT">
+            WM_NOTIFYFORMAT -&gt; 0x0055
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCMOUSELEAVE">
+            WM_NCMOUSELEAVE -&gt; 0x02A2
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCMOUSEHOVER">
+            WM_NCMOUSEHOVER -&gt; 0x02A0
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDIGETACTIVE">
+            WM_MDIGETACTIVE -&gt; 0x0229
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_HANDHELDLAST">
+            WM_HANDHELDLAST -&gt; 0x035F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_EXITSIZEMOVE">
+            WM_EXITSIZEMOVE -&gt; 0x0232
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_EXITMENULOOP">
+            WM_EXITMENULOOP -&gt; 0x0212
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DEVICECHANGE">
+            WM_DEVICECHANGE -&gt; 0x0219
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_UNADVISE">
+            WM_DDE_UNADVISE -&gt; (WM_DDE_FIRST+3)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_INITIATE">
+            WM_DDE_INITIATE -&gt; (WM_DDE_FIRST)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CTLCOLOREDIT">
+            WM_CTLCOLOREDIT -&gt; 0x0133
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_BOTTOMLEFT">
+            WMSZ_BOTTOMLEFT -&gt; 7
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_XBUTTONDOWN">
+            WM_XBUTTONDOWN -&gt; 0x020B
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_USERCHANGED">
+            WM_USERCHANGED -&gt; 0x0054
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_TABLET_LAST">
+            WM_TABLET_LAST -&gt; 0x02df
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SYSDEADCHAR">
+            WM_SYSDEADCHAR -&gt; 0x0107
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_RBUTTONDOWN">
+            WM_RBUTTONDOWN -&gt; 0x0204
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PRINTCLIENT">
+            WM_PRINTCLIENT -&gt; 0x0318
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PENWINFIRST">
+            WM_PENWINFIRST -&gt; 0x0380
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCXBUTTONUP">
+            WM_NCXBUTTONUP -&gt; 0x00AC
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCRBUTTONUP">
+            WM_NCRBUTTONUP -&gt; 0x00A5
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCMOUSEMOVE">
+            WM_NCMOUSEMOVE -&gt; 0x00A0
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCMBUTTONUP">
+            WM_NCMBUTTONUP -&gt; 0x00A8
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCLBUTTONUP">
+            WM_NCLBUTTONUP -&gt; 0x00A2
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MENUCOMMAND">
+            WM_MENUCOMMAND -&gt; 0x0126
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MEASUREITEM">
+            WM_MEASUREITEM -&gt; 0x002C
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDIMAXIMIZE">
+            WM_MDIMAXIMIZE -&gt; 0x0225
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDIACTIVATE">
+            WM_MDIACTIVATE -&gt; 0x0222
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MBUTTONDOWN">
+            WM_MBUTTONDOWN -&gt; 0x0207
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_LBUTTONDOWN">
+            WM_LBUTTONDOWN -&gt; 0x0201
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_REQUEST">
+            WM_IME_REQUEST -&gt; 0x0288
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_KEYLAST">
+            WM_IME_KEYLAST -&gt; 0x010F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_KEYDOWN">
+            WM_IME_KEYDOWN -&gt; 0x0290
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_CONTROL">
+            WM_IME_CONTROL -&gt; 0x0283
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_REQUEST">
+            WM_DDE_REQUEST -&gt; (WM_DDE_FIRST+6)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_EXECUTE">
+            WM_DDE_EXECUTE -&gt; (WM_DDE_FIRST+8)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CTLCOLORDLG">
+            WM_CTLCOLORDLG -&gt; 0x0136
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CTLCOLORBTN">
+            WM_CTLCOLORBTN -&gt; 0x0135
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CONTEXTMENU">
+            WM_CONTEXTMENU -&gt; 0x007B
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_COMPAREITEM">
+            WM_COMPAREITEM -&gt; 0x0039
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ACTIVATEAPP">
+            WM_ACTIVATEAPP -&gt; 0x001C
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_VKEYTOITEM">
+            WM_VKEYTOITEM -&gt; 0x002E
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_TIMECHANGE">
+            WM_TIMECHANGE -&gt; 0x001E
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SYSKEYDOWN">
+            WM_SYSKEYDOWN -&gt; 0x0104
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SYSCOMMAND">
+            WM_SYSCOMMAND -&gt; 0x0112
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SHOWWINDOW">
+            WM_SHOWWINDOW -&gt; 0x0018
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PENWINLAST">
+            WM_PENWINLAST -&gt; 0x038F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NEXTDLGCTL">
+            WM_NEXTDLGCTL -&gt; 0x0028
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCCALCSIZE">
+            WM_NCCALCSIZE -&gt; 0x0083
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCACTIVATE">
+            WM_NCACTIVATE -&gt; 0x0086
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOUSEWHEEL">
+            WM_MOUSEWHEEL -&gt; 0x020A
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOUSELEAVE">
+            WM_MOUSELEAVE -&gt; 0x02A3
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOUSEHOVER">
+            WM_MOUSEHOVER -&gt; 0x02A1
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOUSEFIRST">
+            WM_MOUSEFIRST -&gt; 0x0200
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MENUSELECT">
+            WM_MENUSELECT -&gt; 0x011F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDISETMENU">
+            WM_MDISETMENU -&gt; 0x0230
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDIRESTORE">
+            WM_MDIRESTORE -&gt; 0x0223
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDIDESTROY">
+            WM_MDIDESTROY -&gt; 0x0221
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDICASCADE">
+            WM_MDICASCADE -&gt; 0x0227
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_INITDIALOG">
+            WM_INITDIALOG -&gt; 0x0110
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_SELECT">
+            WM_IME_SELECT -&gt; 0x0285
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_NOTIFY">
+            WM_IME_NOTIFY -&gt; 0x0282
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETDLGCODE">
+            WM_GETDLGCODE -&gt; 0x0087
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_FONTCHANGE">
+            WM_FONTCHANGE -&gt; 0x001D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ERASEBKGND">
+            WM_ERASEBKGND -&gt; 0x0014
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ENDSESSION">
+            WM_ENDSESSION -&gt; 0x0016
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DELETEITEM">
+            WM_DELETEITEM -&gt; 0x002D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_ADVISE">
+            WM_DDE_ADVISE -&gt; (WM_DDE_FIRST+2)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_COMPACTING">
+            WM_COMPACTING -&gt; 0x0041
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_COMMNOTIFY">
+            WM_COMMNOTIFY -&gt; 0x0044
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHARTOITEM">
+            WM_CHARTOITEM -&gt; 0x002F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CANCELMODE">
+            WM_CANCELMODE -&gt; 0x001F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_APPCOMMAND">
+            WM_APPCOMMAND -&gt; 0x0319
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_TOPRIGHT">
+            WMSZ_TOPRIGHT -&gt; 5
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_XBUTTONUP">
+            WM_XBUTTONUP -&gt; 0x020C
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SYNCPAINT">
+            WM_SYNCPAINT -&gt; 0x0088
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETREDRAW">
+            WM_SETREDRAW -&gt; 0x000B
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETHOTKEY">
+            WM_SETHOTKEY -&gt; 0x0032
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETCURSOR">
+            WM_SETCURSOR -&gt; 0x0020
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_RBUTTONUP">
+            WM_RBUTTONUP -&gt; 0x0205
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_QUEUESYNC">
+            WM_QUEUESYNC -&gt; 0x0023
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_QUERYOPEN">
+            WM_QUERYOPEN -&gt; 0x0013
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PAINTICON">
+            WM_PAINTICON -&gt; 0x0026
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCHITTEST">
+            WM_NCHITTEST -&gt; 0x0084
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCDESTROY">
+            WM_NCDESTROY -&gt; 0x0082
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOUSEMOVE">
+            WM_MOUSEMOVE -&gt; 0x0200
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOUSELAST">
+            WM_MOUSELAST -&gt; 0x020D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDICREATE">
+            WM_MDICREATE -&gt; 0x0220
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MBUTTONUP">
+            WM_MBUTTONUP -&gt; 0x0208
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_LBUTTONUP">
+            WM_LBUTTONUP -&gt; 0x0202
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_KILLFOCUS">
+            WM_KILLFOCUS -&gt; 0x0008
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_KEYUP">
+            WM_IME_KEYUP -&gt; 0x0291
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETOBJECT">
+            WM_GETOBJECT -&gt; 0x003D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETHOTKEY">
+            WM_GETHOTKEY -&gt; 0x0033
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ENTERIDLE">
+            WM_ENTERIDLE -&gt; 0x0121
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DROPFILES">
+            WM_DROPFILES -&gt; 0x0233
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_FIRST">
+            WM_DDE_FIRST -&gt; 0x03E0
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_TOPLEFT">
+            WMSZ_TOPLEFT -&gt; 4
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SYSKEYUP">
+            WM_SYSKEYUP -&gt; 0x0105
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETFOCUS">
+            WM_SETFOCUS -&gt; 0x0007
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NEXTMENU">
+            WM_NEXTMENU -&gt; 0x0213
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCCREATE">
+            WM_NCCREATE -&gt; 0x0081
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MENUDRAG">
+            WM_MENUDRAG -&gt; 0x0123
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MENUCHAR">
+            WM_MENUCHAR -&gt; 0x0120
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_KEYFIRST">
+            WM_KEYFIRST -&gt; 0x0100
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_INITMENU">
+            WM_INITMENU -&gt; 0x0116
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_IME_CHAR">
+            WM_IME_CHAR -&gt; 0x0286
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DRAWITEM">
+            WM_DRAWITEM -&gt; 0x002B
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DEADCHAR">
+            WM_DEADCHAR -&gt; 0x0103
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_POKE">
+            WM_DDE_POKE -&gt; (WM_DDE_FIRST+7)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_LAST">
+            WM_DDE_LAST -&gt; (WM_DDE_FIRST+8)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_DATA">
+            WM_DDE_DATA -&gt; (WM_DDE_FIRST+5)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_COPYDATA">
+            WM_COPYDATA -&gt; 0x004A
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_AFXFIRST">
+            WM_AFXFIRST -&gt; 0x0360
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ACTIVATE">
+            WM_ACTIVATE -&gt; 0x0006
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_BOTTOM">
+            WMSZ_BOTTOM -&gt; 6
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_VSCROLL">
+            WM_VSCROLL -&gt; 0x0115
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_UNICHAR">
+            WM_UNICHAR -&gt; 0x0109
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SYSCHAR">
+            WM_SYSCHAR -&gt; 0x0106
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETTEXT">
+            WM_SETTEXT -&gt; 0x000C
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETICON">
+            WM_SETICON -&gt; 0x0080
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SETFONT">
+            WM_SETFONT -&gt; 0x0030
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NCPAINT">
+            WM_NCPAINT -&gt; 0x0085
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDITILE">
+            WM_MDITILE -&gt; 0x0226
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MDINEXT">
+            WM_MDINEXT -&gt; 0x0224
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_KEYLAST">
+            WM_KEYLAST -&gt; 0x0109
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_KEYDOWN">
+            WM_KEYDOWN -&gt; 0x0100
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_HSCROLL">
+            WM_HSCROLL -&gt; 0x0114
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETTEXT">
+            WM_GETTEXT -&gt; 0x000D
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETICON">
+            WM_GETICON -&gt; 0x007F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_GETFONT">
+            WM_GETFONT -&gt; 0x0031
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DESTROY">
+            WM_DESTROY -&gt; 0x0002
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_DDE_ACK">
+            WM_DDE_ACK -&gt; (WM_DDE_FIRST+4)
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_COMMAND">
+            WM_COMMAND -&gt; 0x0111
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_AFXLAST">
+            WM_AFXLAST -&gt; 0x037F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_RIGHT">
+            WMSZ_RIGHT -&gt; 2
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SIZING">
+            WM_SIZING -&gt; 0x0214
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NOTIFY">
+            WM_NOTIFY -&gt; 0x004E
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOVING">
+            WM_MOVING -&gt; 0x0216
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_HOTKEY">
+            WM_HOTKEY -&gt; 0x0312
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_ENABLE">
+            WM_ENABLE -&gt; 0x000A
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CREATE">
+            WM_CREATE -&gt; 0x0001
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_LEFT">
+            WMSZ_LEFT -&gt; 1
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_TIMER">
+            WM_TIMER -&gt; 0x0113
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_TCARD">
+            WM_TCARD -&gt; 0x0052
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PRINT">
+            WM_PRINT -&gt; 0x0317
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_POWER">
+            WM_POWER -&gt; 0x0048
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PASTE">
+            WM_PASTE -&gt; 0x0302
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_PAINT">
+            WM_PAINT -&gt; 0x000F
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_KEYUP">
+            WM_KEYUP -&gt; 0x0101
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_INPUT">
+            WM_INPUT -&gt; 0x00FF
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CLOSE">
+            WM_CLOSE -&gt; 0x0010
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CLEAR">
+            WM_CLEAR -&gt; 0x0303
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WMSZ_TOP">
+            WMSZ_TOP -&gt; 3
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_USER">
+            WM_USER -&gt; 0x0400
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_UNDO">
+            WM_UNDO -&gt; 0x0304
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_SIZE">
+            WM_SIZE -&gt; 0x0005
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_QUIT">
+            WM_QUIT -&gt; 0x0012
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_NULL">
+            WM_NULL -&gt; 0x0000
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_MOVE">
+            WM_MOVE -&gt; 0x0003
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_HELP">
+            WM_HELP -&gt; 0x0053
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_COPY">
+            WM_COPY -&gt; 0x0301
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CHAR">
+            WM_CHAR -&gt; 0x0102
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_CUT">
+            WM_CUT -&gt; 0x0300
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.WM_APP">
+            WM_APP -&gt; 0x8000
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.EM_CHARFROMPOS">
+            EM_CHARFROMPOS -&gt; 0x00D7
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.SC_RESTORE">
+            SC_RESTORE -&gt; 0xF120
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.SC_CLOSE">
+            SC_CLOSE -&gt; 0xF060
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Constants.Win32Constants.SC_MINIMIZE">
+            SC_MINIMIZE -&gt; 0xF020
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration">
+            <summary>Configuration used for reading and writing CSV data.</summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.HasHeaderRecord">
+            <summary>
+            Gets or sets a value indicating if the
+            CSV file has a header record.
+            Default is true.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.Delimiter">
+            <summary>
+            Gets or sets the delimiter used to separate fields.
+            Default is ',';
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.Quote">
+            <summary>
+            Gets or sets the character used to quote fields.
+            Default is '"'.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.Comment">
+            <summary>
+            Gets or sets the character used to denote
+            a line that is commented out. Default is '#'.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.AllowComments">
+            <summary>
+            Gets or sets a value indicating if comments are allowed.
+            True to allow commented out lines, otherwise false.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.BufferSize">
+            <summary>
+            Gets or sets the size of the buffer
+            used for reading and writing CSV files.
+            Default is 2048.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.QuoteAllFields">
+            <summary>
+            Gets or sets a value indicating whether all fields are quoted when writing,
+            or just ones that have to be. <see cref="P:CsvHelper.Configuration.CsvConfiguration.QuoteAllFields" /> and
+            <see cref="P:CsvHelper.Configuration.CsvConfiguration.QuoteNoFields" /> cannot be true at the same time. Turning one
+            on will turn the other off.
+            </summary>
+            <value>
+                <c>true</c> if all fields should be quoted; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.QuoteNoFields">
+            <summary>
+            Gets or sets a value indicating whether no fields are quoted when writing.
+            <see cref="P:CsvHelper.Configuration.CsvConfiguration.QuoteAllFields" /> and <see cref="P:CsvHelper.Configuration.CsvConfiguration.QuoteNoFields" /> cannot be true
+            at the same time. Turning one on will turn the other off.
+            </summary>
+            <value>
+                <c>true</c> if [quote no fields]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.CountBytes">
+            <summary>
+            Gets or sets a value indicating whether the number of bytes should
+            be counted while parsing. Default is false. This will slow down parsing
+            because it needs to get the byte count of every char for the given encoding.
+            The <see cref="P:CsvHelper.Configuration.CsvConfiguration.Encoding" /> needs to be set correctly for this to be accurate.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.Encoding">
+            <summary>Gets or sets the encoding used when counting bytes.</summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.CultureInfo">
+            <summary>
+            Gets or sets the culture info used to read an write CSV files.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration.IgnoreQuotes">
+            <summary>
+            Gets or sets a value indicating if quotes should be
+            ingored when parsing and treated like any other character.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Database.CSV.CsvConfigurationException">
+            <summary>Represents configuration errors that occur.</summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvConfigurationException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CsvHelper.Configuration.CsvConfigurationException" /> class
+            with a specified error message.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Database.CSV.CsvHelperException">
+            <summary>Represents errors that occur in CsvHelper.</summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvHelperException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CsvHelper.CsvHelperException" /> class
+            with a specified error message.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter">
+            <summary>Used to write CSV files.</summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.#ctor(System.IO.TextWriter,Neo.ApplicationFramework.Common.Database.CSV.CsvConfiguration)">
+            <summary>
+            Creates a new CSV writer using the given <see cref="T:System.IO.StreamWriter" />
+            and <see cref="T:CsvHelper.Configuration.CsvConfiguration" />.
+            </summary>
+            <param name="writer">The <see cref="T:System.IO.StreamWriter" /> use to write the CSV file.</param>
+            <param name="configuration">The configuration.</param>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.Configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.NextRecord">
+            <summary>
+            Ends writing of the current record
+            and starts a new record. This is used
+            when manually writing records with WriteField.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.WriteField(System.String)">
+            <summary>
+            Writes the field to the CSV file. The field
+            may get quotes added to it.
+            When all fields are written for a record,
+            <see cref="M:CsvHelper.ICsvWriter.NextRecord" /> must be called
+            to complete writing of the current record.
+            </summary>
+            <param name="field">The field to write.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.WriteField(System.String,System.Boolean)">
+            <summary>
+            Writes the field to the CSV file. This will
+            ignore any need to quote and ignore the
+            <see cref="P:CsvHelper.Configuration.CsvConfiguration.QuoteAllFields" />
+            and just quote based on the shouldQuote
+            parameter.
+            When all fields are written for a record,
+            <see cref="M:CsvHelper.ICsvWriter.NextRecord" /> must be called
+            to complete writing of the current record.
+            </summary>
+            <param name="field">The field to write.</param>
+            <param name="shouldQuote">True to quote the field, otherwise false.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.CheckDisposed">
+            <summary>
+            Checks if the instance has been disposed of.
+            </summary>
+            <exception cref="T:System.ObjectDisposedException" />
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.CSV.CsvWriter.Dispose(System.Boolean)">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            <param name="disposing">True if the instance needs to be disposed of.</param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Database.DBNullValidation">
+            <summary>
+            Class responsible for validating other objects against <see cref="F:System.DBNull.Value" />.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Database.DBNullValidation.IsNull(System.Object)">
+            <summary>
+            Determines whether the specified value is null or <see cref="F:System.DBNull.Value" />.
+            </summary>
+            <returns>
+            True if specified value is null or <see cref="F:System.DBNull.Value" />; otherwise false.
+            </returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Data.DataItemProxyCookie">
+            <summary>
+            Represents a proxy cookie key container.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedBase.CreatePropertyChangedHelper">
+            <summary>
+            Creates a <see cref="T:Neo.ApplicationFramework.PropertyChangeHelpers.NotifyPropertyChangedHelperBase" />.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedBase.NotifyPropertyChangedHelper">
+            <summary>
+            Gets the notify property changed helper.
+            </summary>
+        </member>
+        <member name="E:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedBase.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedBase.IsAnyListening">
+            <summary>
+            Gets a value indicating whether anyone is listening for property changes.
+            </summary>
+        </member>
+        <member name="E:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedBase.System#ComponentModel#INotifyPropertyChanged#PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy">
+            <summary>
+            Class that handles the value transfer between tags (DataItems, GlobalDataItems) and UI objects such as TrendViewer, AnalogNumeric.
+            It will handle value and quality changes on a DataItem and forward this change to UI objects.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.StructuredTagProxyFactory.CreateProxy(System.String)">
+            <summary>
+            This method creates a proxy to a structured tag, other than the path stored in the proxy no real use is provided at this point
+            </summary>
+            <param name="fullPath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Data.DataItemProxy">
+            <summary>
+            Class that handles the value transfer between tags (DataItems, GlobalDataItems) and UI objects such as TrendViewer, AnalogNumeric.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Data.DataItemProxy.ConnectedClients">
+            <summary>
+            Handles the triggering of valuechanged based on the number of
+            connected "clients" (for example number of objects connected to the same tag). 
+            Always only for visible screen.
+            If not any connected clients, then don't fire ValueChanged, ie don't fire ValueChanged on screens that are not visible.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateProxy(System.String)">
+            <summary>
+            Used for creating proxies from generated code, see Neo.ApplicationFramework.Tools.OpcClient.DataItemProxyConverter./&gt;
+            </summary>
+            <param name="name">Name of data item to create a proxy for.</param>
+            <returns>The created proxy, or null if not possible.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy(System.String)">
+            <summary>
+            Used for creating proxies from generated code, see Neo.ApplicationFramework.Tools.OpcClient.DataItemProxyConverter./&gt;
+            </summary>
+            <param name="name">Name of data item to create a proxy for.</param>
+            <returns>The created proxy, or null if not possible.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.GetProxy(System.String,Neo.ApplicationFramework.Interfaces.IScreen)">
+            <summary>
+            The purpose with this overloaded method is that it can be called from script, in order 
+            to get a proxy that ends up in the recorded proxy list, even after EndRecordProxies have 
+            been called, and thereby gets refreshed by the update timer in screen. The tag also gets 
+            activated and later on deactivated when closing the screen, but it's not batch activated.
+            </summary>
+            <param name="name">Full name of tag to get proxy for.</param>
+            <param name="screen">Reference to the screen to record this proxy for.</param>
+            <returns>A dataitem proxy for the tag.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.DeactivateProxies(System.String)">
+            <summary>
+            Disconnects data items without removing them.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.SetActivityOnDataItemProxies(System.String,System.Boolean)">
+            <summary>
+            Activates or deactivates DataItemProxyActivity 
+            without adding connected clients
+            </summary>
+            <param name="cookieName">proxy cookie name</param>
+            <param name="isActive">true to activate, false to deactivate</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DynamicBinding.Deactivate">
+            <summary>
+            Deactivates bindings.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DynamicBinding.Activate">
+            <summary>
+            Activates bindings. Safe from multiple hookups.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.DynamicBinding.ReadValue">
+            <summary>
+            Push data from source to destination
+            Calling ReadValue on bindings not added in DCBC via base.AddCore will have some properties set to null, hence ReadValue will throw exception.
+            This method will make the distinction and bypass ReadValue for bindings supporting optimized binding (i.e. pushing the data directly) 
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF.#ctor">
+            <summary>
+            Initializes a new instance of the BrushConverterCF class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverterCF.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value. The data binding engine calls this method when it propagates
+            a value from the binding source to the binding target.
+            </summary>
+            <param name="value">The value produced by the binding source.</param>
+            <param name="targetType">The type of the binding target property.</param>
+            <param name="parameter">The converter parameter to use.</param>
+            <param name="culture">The culture to use in the converter.</param>
+            <returns>A converted value.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.SymbolIntervalList.GetItemProperties(System.ComponentModel.PropertyDescriptor[])">
+            <summary>
+            Make sure a new PropertyDescriptorCollection is created and returned, we should not 
+            modify the cached PropertyDescriptorCollection returned by TypeDescriptor.GetProperties.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.DynamicString.#ctor">
+            <summary>
+            Should only be used in runtime
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Dynamics.StringIntervalListCF">
+            <summary>
+            Inherit generic type, since XamlWriter cannot serialize generics.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Extensions.System.DoubleExtensions.IsFraction(System.Double)">
+            <summary>
+            Checks if the value is a fraction
+            </summary>
+            <param name="value">the value to be checked</param>
+            <returns>true if the value is a fraction else false</returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.FileLogic.FilePathLogicCF">
+            <summary>
+            Help class to set up correct file paths for generated files (database exports, screen dumps)
+            on the execution environment Windows CE.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Keyboard.SendKeysCF">
+            <summary>
+            This class is partly borrowed from OpenNETCF and modified to make it work properly.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.MessageFilter.BeepMessageFilterBase.PreFilterMessage(System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            Filters windows' messages, before being sent forth to potential event handlers.
+            </summary>
+            <param name="message">The incoming message.</param>
+            <param name="lParam"></param>
+            <param name="handle">The handle for the target window.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Runtime.CoreApplication.StartupPath">
+            <summary>
+            Gets the path for the executable file that started 
+            the application, not including the executable name. 
+            Application.StartupPath
+            </summary>
+            <returns>The startup path for the application.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Runtime.DriverRegistration.CheckAndResetDriverRegistration(System.String)">
+            <summary>
+            Checks if the ComRegistration is in state DoNotNeedToRegister and
+            resets it in order to drivers being registered on next reboot/project restart.
+            </summary>
+            <param name="path">Project files path</param>
+            <returns>True if the state was corrected to NeedToRegister</returns>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Runtime.GlobalsBase.Neo#ApplicationFramework#Interfaces#ISettings#ProjectSettings">
+            <summary>
+            Implemented explicitly in order to not collide with a designer having the same name.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Runtime.GlobalsBase.Neo#ApplicationFramework#Interfaces#ISettings#SystemSettings">
+            <summary>
+            Implemented explicitly in order to not collide with a designer having the same name.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Runtime.MultipleVncConnectionFeature.#ctor">
+            <summary>
+            Run time-features should always be active!
+            Default ctor is needed for xml-deserialization  
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityMessageFilterBase.PreFilterMessage(System.Int32,System.IntPtr,System.IntPtr,System.IntPtr)">
+            <summary>
+            Filters windows' messages, before being sent forth to potential event handlers.
+            </summary>
+            <param name="message">The incoming message.</param>
+            <param name="key">The key that was pressed.</param>
+            <param name="handle">The handle for the target window.</param>
+            <param name="param">The handle for the incoming parameter.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Security.SecurityGroup">
+            <summary>
+             Represents a specific security group.
+             </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroup.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SecurityGroup" /> class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroup.#ctor(System.String,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SecurityGroup" /> class.
+            </summary>
+            <param name="name">The name of the group.</param>
+            <param name="group">The security groups enumeration to associate this group with.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroup.FlagGroup(Neo.ApplicationFramework.Interfaces.SecurityGroups,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Flags a security group, by using bitwise 'or' on the enumeration and the group.
+            </summary>
+            <param name="groups">Security groups enumeration to manipulate.</param>
+            <param name="groupToFlag">Group to flag in enumeration.</param>
+            <returns>A security groups enumeration with the specified group flagged.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroup.UnflagGroup(Neo.ApplicationFramework.Interfaces.SecurityGroups,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Unflags a security group, by using bitwise 'and' on the enumeration and the inverted group.
+            </summary>
+            <param name="groups">Security groups enumeration to manipulate.</param>
+            <param name="groupToUnflag">Group to unflag in enumeration.</param>
+            <returns>A security groups enumeration with the specified group unflagged.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroup.IsAnyGroupFlagged(Neo.ApplicationFramework.Interfaces.SecurityGroups,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Checks if any group is flagged in another security groups enumeration.
+            </summary>
+            <param name="groups">Security groups enumeration to check among.</param>
+            <param name="groupsToCheck">Groups to check if flagged.</param>
+            <returns>True if any of the groups is flagged, false otherwise.</returns>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Security.SecurityGroup.GroupName">
+            <summary>
+             Gets or sets the name for this security group.
+             </summary>
+            <value></value>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Security.SecurityGroup.Group">
+            <summary>
+            Gets or sets the security groups enumeration associated with this security group.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroup.GetHashCode">
+            <summary>
+            Serves as a hash function for a particular type. <see cref="M:System.Object.GetHashCode"></see> is suitable for use in hashing algorithms and data structures like a hash table.
+            </summary>
+            <returns>
+            A hash code for the current <see cref="T:System.Object"></see>.
+            </returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF">
+            <summary>
+            The security extender holding certain security related properties, in runtime.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.m_SecurityGroups">
+            <summary>
+            Hash table with controls and their security groups.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.m_VisibilityModes">
+            <summary>
+            Hash table with controls and their visibility modes.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SecurityExtenderCF" /> class.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.GetSecurityGroupsForControl(System.ComponentModel.IComponent)">
+            <summary>
+            Gets the security groups enumeration for a component.
+            </summary>
+            <param name="component">The component to retrieve security groups for.</param>
+            <returns>A security groups enumeration.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.SetSecurityGroupsRequired(System.ComponentModel.IComponent,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Sets the security groups for a component.
+            </summary>
+            <param name="component">The component to set security groups for.</param>
+            <param name="value">A security groups enumeration.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.GetVisibilityModeForControl(System.ComponentModel.IComponent)">
+            <summary>
+            Gets the visibility mode for a component.
+            </summary>
+            <param name="component">The component to retrieve the visibility mode for.</param>
+            <returns>A visibility mode enumeration.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.SetVisibilityOnAccessDenied(System.ComponentModel.IComponent,Neo.ApplicationFramework.Interfaces.VisibilityModes)">
+            <summary>
+            Sets the visibility mode for a component.
+            </summary>
+            <param name="component">The component to set the visibility mode for.</param>
+            <param name="value">A visibility mode enumeration.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityExtenderCF.RegisterSecurityExtender(System.ComponentModel.Component,Neo.ApplicationFramework.Interfaces.ISecurityExtenderCF)">
+            <summary>
+            Adds the security extender to the security manager's collection of extenders.
+            </summary>
+            <param name="component">The parent control of the extender.</param>
+            <param name="securityExtender">The security extender to add.</param>
+            <returns>True if successfully added, false otherwise.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroupHelper.FlagGroup(Neo.ApplicationFramework.Interfaces.SecurityGroups,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Flags a security group, by using bitwise 'or' on the enumeration and the group.
+            </summary>
+            <param name="groups">Security groups enumeration to manipulate.</param>
+            <param name="groupToFlag">Group to flag in enumeration.</param>
+            <returns>A security groups enumeration with the specified group flagged.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroupHelper.UnflagGroup(Neo.ApplicationFramework.Interfaces.SecurityGroups,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Unflags a security group, by using bitwise 'and' on the enumeration and the inverted group.
+            </summary>
+            <param name="groups">Security groups enumeration to manipulate.</param>
+            <param name="groupToUnflag">Group to unflag in enumeration.</param>
+            <returns>A security groups enumeration with the specified group unflagged.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Security.SecurityGroupHelper.IsAnyGroupFlagged(Neo.ApplicationFramework.Interfaces.SecurityGroups,Neo.ApplicationFramework.Interfaces.SecurityGroups)">
+            <summary>
+            Checks if any group is flagged in another security groups enumeration.
+            </summary>
+            <param name="groups">Security groups enumeration to check among.</param>
+            <param name="groupsToCheck">Groups to check if flagged.</param>
+            <returns>True if any of the groups is flagged, false otherwise.</returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Security.SecurityMessageFilterCF">
+            <summary>
+            Security message filter for compact framework, e.g. Windows CE.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Serialization.TextIdSerializationHelperCF">
+            <summary>
+            Contains help functionality to serialize / deserialize static Text Id to/from XAML
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Serialization.ObjectSerializerCF.ReadObject(System.Xml.XmlNode,System.Object)">
+            Reads the "Object" tag. This returns an instance of the
+            newly created object. Returns null if there was an error.
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Threshold.BoundaryMonitor`1">
+            <summary>
+            Represents a base for boundry monitoring of volatile values.
+            </summary>
+            <typeparam name="TBoundaryValueType"></typeparam>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Threshold.BoundaryMonitor`1.#ctor(System.Int32,System.Func{`0},System.Func{`0,System.Int32},System.Int32,Neo.ApplicationFramework.Common.Threshold.IBoundaryMonitorTimer)">
+            <param name="samplesCount">Number of samples for average calculation.</param>
+            <param name="loadSampleImplementation">A delegate method for retrieving the real time sample value.</param>
+            <param name="samplesTransformImplementation">Converter delegate method from sample to integer.</param>
+            <param name="initialSampleInterval">The time interval before first sample (or, if fixed, subsequent samples).</param>
+            <param name="timer">An injectable timer proxy</param>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Threshold.BoundaryMonitor`1.SampleCount">
+            <summary>
+            Number of samples for calculating mean/average.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Threshold.BoundaryMonitor`1.InsideBoundarySampleInterval">
+            <summary>
+            Sample interval in ms when monitored value
+            is inside the boundary span.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Threshold.BoundaryMonitor`1.OutsideBoundarySampleInterval">
+            <summary>
+            Sample interval in ms when monitored value
+            is outside the boundary span.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Threshold.BoundaryMonitor`1.MonitorImplementation(`0,System.Double)">
+            <summary>
+            Called at every instance a new average value is calculated.
+            Implement logic for monitoring the boundary.
+            </summary>
+            <param name="currentSampleValue">The latest sample</param>
+            <param name="mercurialAverage">Average value</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Threshold.BoundaryMonitor`1.Initialize">
+            <summary>
+            Initializes timer and boundary values,
+            as well as checking for uninitialized
+            properties.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Threshold.DeadbandThresholdMonitor`1.#ctor(System.Int32,System.Func{`0},System.Func{`0,System.Int32},System.Int32,System.Double,Neo.ApplicationFramework.Common.Threshold.IBoundaryMonitorTimer)">
+            <param name="samplesCount">Number of samples for average calculation.</param>
+            <param name="loadSampleImplementation">A delegate method for retrieving the real time sample value.</param>
+            <param name="samplesTransformImplementation">Converter delegate method from sample to integer.</param>
+            <param name="initialSampleInterval">The time interval before first sample (or, if fixed, subsequent samples).</param>
+            <param name="deadband">A lambda value [0,1] representing the difference, from baseline, required for invoking the BoundaryReached event.</param>
+            <param name="timer">An injectable System.Threading.Timer proxy</param>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Threshold.DeadbandThresholdMonitor`1.Deadband">
+            <summary>
+            A lambda value [0,1] representing the difference, from
+            baseline, required for invoking the BoundaryReached event.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Threshold.DynamicSpanBoundaryMonitor`1.#ctor(System.Int32,System.Func{`0},System.Func{`0,System.Int32},System.Int32,System.Func{System.Int32},System.Func{System.Int32},Neo.ApplicationFramework.Common.Threshold.IBoundaryMonitorTimer)">
+            <param name="samplesCount">Number of samples for average calculation.</param>
+            <param name="loadSampleImplementation">A delegate method for retrieving the real time sample value.</param>
+            <param name="samplesTransformImplementation">Converter delegate method from sample to integer.</param>
+            <param name="initialSampleInterval">The time interval before first sample (or, if fixed, subsequent samples).</param>
+            <param name="lowerBoundaryFunc">Sets the lower boundary in runtime</param>
+            <param name="upperBoundaryFunc">Sets the upper boundary in runtime</param>
+            <param name="timer">An injectable System.Threading.Timer proxy</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.DelayInput.DelayInputView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Designer.BindableDesignerItemBase.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Designer.DesignerItemBase.IsPublic">
+            <summary>
+            Don't use this for screens, use corresponding property on ScreenDesignerProjectItem. This to avoid perormance penelty
+            of loading the sceen to get the value of this. This property is not in synch with SDPI property, hence should not be used by screens.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Designer.DesignerItemBase.OnListChanged(System.Object,System.ComponentModel.ListChangedEventArgs)">
+            <summary>
+            Method to handle BindingList.ListChanged events from deriving classes
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Designer.DesignerItemBase.ProjectGuid">
+            <summary>
+            The guid of the project that created this object
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Designer.DesignerItemBase.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Designer.ValueConnectionDesignerItemBase.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapRegionBuilder.#ctor">
+            <summary>
+            Initializes a new instance of the RegionBuilder class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapRegionBuilder.ApplyRegion(System.IntPtr,System.IntPtr,System.Boolean)">
+            <summary>
+            Applies a region to a window.
+            </summary>
+            <param name="windowHandle">The window handle which is the target of the region.</param>
+            <param name="region">The region to be applied.</param>
+            <param name="redraw">If the apply region should force a redraw immediately after the region has been applied.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapRegionBuilder.ApplyRegionFast(System.IntPtr,System.Drawing.Bitmap,System.Drawing.Color,System.Boolean)">
+            <summary>
+            Applies a region to a window from the shape of a bitmap.
+            This method uses a faster algorithm, which does not support advanced shapes, e.g transparent colors in the middle of the bitmap.
+            </summary>
+            <param name="windowHandle">The window handle which is the target of the region.</param>
+            <param name="bitmap">The bitmap to build the region from.</param>
+            <param name="transparent">The color key of the transparent color.</param>
+            <param name="redraw">If the apply region should force a redraw immediately after the region has been applied.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapRegionBuilder.ApplyRegion(System.IntPtr,System.Drawing.Bitmap,System.Drawing.Color,System.Boolean)">
+            <summary>
+            Applies a region to a window from the shape of a bitmap.
+            </summary>
+            <param name="windowHandle">The window handle which is the target of the region.</param>
+            <param name="bitmap">The bitmap to build the region from.</param>
+            <param name="transparent">The color key of the transparent color.</param>
+            <param name="redraw">If the apply region should force a redraw immediately after the region has been applied.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapRegionBuilder.ApplyRegion(System.IntPtr,System.Collections.Generic.List{System.Drawing.Rectangle},System.Drawing.Rectangle,System.Boolean)">
+            <summary>
+            Applies a region to a window from the information of the rectangles. The rectangles is the areas which will be removed from the main rectangle
+            </summary>
+            <param name="windowHandle">The window handle which is the target of the region.</param>
+            <param name="rectangles">List of rectangles which represents the transparent area of the window</param>
+            <param name="mainRectangle">The main rectangle which the transparent rectangles will be removed from when building the region</param>
+            <param name="redraw">If the apply region should force a redraw immediately after the region has been applied.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapRegionBuilder.BuildRegionFromBitmap(System.Drawing.Bitmap,System.Drawing.Color)">
+            <summary>
+            Creates a region from a bitmap.
+            </summary>
+            <param name="bitmap">The bitmap to use as a shape for the region</param>
+            <param name="transparent">Color key for the transparent areas</param>
+            <returns>The new region</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapRegionBuilder.BuildRegionFromBasicBitmap(System.Drawing.Bitmap,System.Drawing.Color)">
+            <summary>
+            Creates a region from a bitmap. Does not work on advanced shapes but are a lot faster.
+            </summary>
+            <param name="bitmap">Bitmap to build region from</param>
+            <param name="transparent">Color key of transparent color</param>
+            <returns></returns>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Graphics.NineSliceBitmap.AllMargins">
+            <summary>
+            Single margin on all four sides.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.NineSliceBitmap.#ctor(System.Drawing.Bitmap)">
+            <summary>
+            Initializes a new instance of the NineSliceBitmap class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.RegionManager.#ctor">
+            <summary>
+            Initializes a new instance of the RegionManager class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.RegionManager.CreateShadowDrawingRegion">
+            <summary>
+            Creates a shadow region, it's up to the caller to delete the object.
+            </summary>
+            <returns>Handle to region.</returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.MultiLanguage.MultiLanguageCFExtension">
+            <summary>
+            Extension class used for code generation, compact framework
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.MultiLanguage.MultiLanguageSystemTextResourceManager.#ctor">
+            <summary>
+            Initializes a new instance of the MultiLanguageSystemTextResourceManager class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.MultiLanguage.MultiLanguageTextIDsFeature.#ctor">
+            <summary>
+            Run time-features should always be active!
+            Default ctor is needed for xml-deserialization  
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.NeoFormsWithHandles.GetControlFromHandle(System.IntPtr,System.Windows.Forms.Control@,System.Windows.Forms.Control@)">
+            <summary>
+            Searches for a control with the specified handle, among all forms.
+            </summary>
+            <param name="handle">The control handle to search for.</param>
+            <param name="targetControl">The control with the specified handle, or null if not found.</param>
+            <param name="targetRoot">The topmost parent control.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.NotifyPropertyChangedCF.SetAndFirePropertyChanged``1(System.String,``0@,``0)">
+            <summary>
+            Sets the specified new value, and fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+            event if the new value is different from the old value.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="propertyName">The name of the property.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+            <returns>true if value was changed; otherwise false.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.NotifyPropertyChangedCF.SetAndFirePropertyChanged``1(System.String,``0@,``0,System.ComponentModel.PropertyChangedEventHandler)">
+            <summary>
+            Unhooks the event handler from the old value's <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+            event, assigns the new value to it, hooks up the PropertyChanged event on the new value, and
+            finally fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> event.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="propertyName">The name of the property.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+            <param name="valueChangedEventHandler">
+            Event handler to hook up to the value's <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> event.
+            </param>
+            <returns>true if value was changed; otherwise false.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.NotifyPropertyChangedCF.FirePropertyChanged(System.String)">
+            <summary>
+            Fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> event with specified
+            property name.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.NotifyPropertyChangedCF.CreatePropertyChangedHelper">
+            <summary>
+            Creates a <see cref="T:Neo.ApplicationFramework.PropertyChangeHelpers.NotifyPropertyChangedHelperBase" />.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Printer.Document.TableCell.ColSpan">
+            <summary>
+            Number of cells this cell spans over.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Printer.Document.TableCell.ClipToBoundsX">
+            <summary>
+            Determines if the cell content may 'escape' the bounds of the cell.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Printer.Document.TableColumn.SizeToAvailable">
+            <summary>
+            SizeToAvailable is a special value indicating that the table column should use
+            all available space. If more than one column is set to SizeToAvailable the the 
+            available space will be equally distributed among these columns.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Printer.Document.TableRow.AutoHeight">
+            <summary>
+            AutoHeight will tell the TableRow to use as much space vertically as is
+            needed by the table rows content.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.BitmapPrintImageToGdiConverter">
+            <summary>
+            Converts a bitmap image into a device context that
+            can be used with native Gdi methods.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.BlockCollectionLayout">
+            <summary>
+            BlockCollectionLayout performs layout of all child layout elements. Layout elements
+            are always stacked on top of each other much like how a StackPanel works in WPF when
+            it has its Orientation set to vertical.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.BlockLayoutElement">
+            <summary>
+            BlockLayoutElement is a base for layout elements that wish to provide padding
+            to the contained content.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.DeviceDependentThickness">
+            <summary>
+            Represents a thickness on the four sides of a rectangle. In contrast to the Thickness class
+            these values are calculated based on the resolution of the device and units are in pixels.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.BlockLayoutFactory">
+            <summary>
+            Factory for converting a FlowDocument Block into the corresponding layout element.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.FlowDocumentLayout">
+            <summary>
+            FlowDocumentLayout performs layout of FlowDocument. The layout is adapted to the 
+            available space which is dependent on the (printer)device is used. FlowDocumentLayout
+            will construct a tree of sub-layout elements all in charge of performing layout
+            on a subset of the original flow document.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.ImageLayout">
+            <summary>
+            Performs layout of a FlowDocument PrintImage. 
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.InlineCollectionLayout">
+            <summary>
+            Performs layout of a list of inlines (e.g. texts/spans). Unlike blocks inlines continue on the same row until the
+            end is reached. Dependening on the TextWrapping the inlines may continue on the next row (TextWrapping.Wrap) or
+            the inline may be chopped (TextWrapping.NoWrap). 
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.InlineLayout">
+            <summary>
+            Performs layout on a FlowDocument Inline. Currently this class is hardcoded to 
+            layout Spans (which is a inline element).  
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.NullPrintImageToGdiConverter">
+            <summary>
+            A null converter to convert a GdiImage (i.e. a device context) to DeviceContext.
+            Since GdiImage already provide a device context no conversion is needed, hence
+            the null prefix.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.ParagraphLayout">
+            <summary>
+            Performs layout of a FlowDocument Paragraph. A paragraph consists
+            of a number of inline elements, typically spans.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.TableLayout">
+            <summary>
+            Performs layout of a FlowDocument Table. TableLayout arranges the content in
+            a grid.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Timers.ManualTimer">
+            <summary>
+            Manual timer for testing purposes. Only raises Tick events on "FireTicks"
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Timers.Timer">
+            <summary>
+            Timer that implements INeoTimer to help unit testing
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.ColorSpaceConverter.RGBtoHSL(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Converts RGB to HSL.
+            </summary>
+            <param name="red">Red value, must be in [0,255].</param>
+            <param name="green">Green value, must be in [0,255].</param>
+            <param name="blue">Blue value, must be in [0,255].</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.ColorSpaceConverter.HSLtoRGB(System.Double,System.Double,System.Double)">
+            <summary>
+            Converts HSL to RGB.
+            </summary>
+            <param name="h">Hue, must be in [0, 360].</param>
+            <param name="s">Saturation, must be in [0, 1].</param>
+            <param name="l">Luminance, must be in [0, 1].</param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.TypeConverters.ColorSpaceConverter.RGB">
+            <summary>
+            RGB structure.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.TypeConverters.ColorSpaceConverter.RGB.Empty">
+            <summary>
+            Gets an empty RGB structure;
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.TypeConverters.ColorSpaceConverter.RGB.Red">
+            <summary>
+            Gets or sets red value.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.TypeConverters.ColorSpaceConverter.RGB.Green">
+            <summary>
+            Gets or sets red value.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.TypeConverters.ColorSpaceConverter.RGB.Blue">
+            <summary>
+            Gets or sets red value.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.TypeConverters.HSL">
+            <summary>
+            Structure to define HSL.
+            </summary>
+        </member>
+        <member name="F:Neo.ApplicationFramework.Common.TypeConverters.HSL.Empty">
+            <summary>
+            Gets an empty HSL structure;
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.TypeConverters.HSL.Hue">
+            <summary>
+            Gets or sets the hue component.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.TypeConverters.HSL.Saturation">
+            <summary>
+            Gets or sets saturation component.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.TypeConverters.HSL.Luminance">
+            <summary>
+            Gets or sets the luminance component.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.HSL.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Creates an instance of a HSL structure.
+            </summary>
+            <param name="h">Hue value.</param>
+            <param name="s">Saturation value.</param>
+            <param name="l">Lightness value.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.BEDATATYPENameConverter.ConvertToBeDataType(System.String)">
+            <summary>
+            Used this method for convert ED type to IX BeDataType.
+            </summary>
+            <returns>BeDataType</returns>
+            <param name="legacyType">Abbreviation type from Information Designer</param>
+            <returns>BeDataType</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.DataItemNameHelper.GetTagNameWithoutRootPrefix(System.String)">
+            <summary>
+            Returns the just the tag name without the <see cref="F:Neo.ApplicationFramework.Interfaces.StringConstants.TagsRoot" /> prefix
+            </summary>
+            <param name="tagFullName">The full name of the tag</param>
+            <returns>tag name without <see cref="F:Neo.ApplicationFramework.Interfaces.StringConstants.TagsRoot" /> prefix</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.DataItemNameHelper.GetTagNameWithRootPrefix(System.String)">
+            <summary>
+            Returns the tag name with the <see cref="F:Neo.ApplicationFramework.Interfaces.StringConstants.TagsRoot" /> prefix.
+            </summary>
+            <param name="tagName">The name of the tag</param>
+            <returns>tag name without <see cref="F:Neo.ApplicationFramework.Interfaces.StringConstants.TagsRoot" /> prefix.</returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.DontShowInPropertyGridDataTable">
+            <summary>
+            Use this DataTable to avoid that a selected row in the table is shown in the PropertyGrid
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.ElementHelperExcludeGroupsFromFullNameAttribute">
+            <summary>
+            Putting this attribute on a component, will make the ElementHelper.GetFullName method
+            return a fullname in the format [DesignerName].[ObjectName] instead of 
+            [DesignerName].[GroupName].[ObjectName].
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.InvokerControl.#ctor">
+            <summary>
+            Initializes a new instance of the InvokerControl class.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.NeoApplication">
+            <summary>
+                This class is a CF wrapper for the .NET Application class.
+                It executes methods in different assemblies, depending on
+                the execution environment.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.NeoApplication.StartupPath">
+            <summary>
+                Gets the path for the executable file that started
+                the application, not including the executable name.
+            </summary>
+            <returns>The startup path for the application.</returns>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.NeoApplication.IsCompiledForCE">
+            <summary>
+            true = WinForms, false = WPF 
+            </summary>
+        </member>
+        <member name="E:Neo.ApplicationFramework.Common.Utilities.NeoApplication.IsInitialized">
+            <summary>
+            Make sure to unsubscribe to this event to avoid memory leak!
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NeoApplication.Initialize">
+            <summary>
+                This method must be invoked on the main thread since the InvokerControl must be created on
+                the window thread.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NeoApplication.Run(System.Type,System.Action)">
+            <summary>
+                Begins running a standard application message loop on
+                the current thread, and makes the specified form visible.
+            </summary>
+            <param name="screenType">A screen type to make visible.</param>
+            <param name="projectStartedCallback">A callback method called on the project is successfully started</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NeoApplication.AddMessageFilter(OpenNETCF.Windows.Forms.IMessageFilter)">
+            <summary>
+                Adds a message filter to monitor Windows messages
+                as they are routed to their destinations.
+            </summary>
+            <param name="messageFilter">The implementation of the IMessageFilter interface you want to install.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NotificationLogic.UpdateNotificationMessage(System.String,System.Int32,System.Boolean)">
+            <summary>
+            This function will show the notification message for exactly timeoutInSeconds if timeoutIsMinimumTimeToShow is set to false.
+            if timeoutIsMinimumTimeToShow is set to true (default is true), then the notification message will be shown for at least timeoutInSeconds
+            and not hidden until HideNotification is called after the time has elapsed. 
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.UDPRecieve">
+            <summary>
+            True if ProcessExplorer should monitor the UPDRecievePortNumber
+            for incoming commands.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.UDPRecievePortNumber">
+            <summary>
+            The UPD port number to monitor for incoming commands.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.TCPAddress">
+            <summary>
+            TCP address. Not used.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.TCPPortNumber">
+            <summary>
+            TCP portnumber. Not used.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.Silent">
+            <summary>
+            If true, nothing will be sent.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.WaitForAttachDebugger">
+            <summary>
+            If true, makes Neo wait in Main, so a debugger can be attached 
+            to a process. Setting it to false will make Neo continue excecuting.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.BoolDebug1">
+            <summary>
+            Boolean debug variable.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.BoolDebug2">
+            <summary>
+            Boolean debug variable.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.BoolDebug3">
+            <summary>
+            Boolean debug variable.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.Send(System.String)">
+            <summary>
+            Send message through UDP.
+            </summary>
+            <param name="message">The message to send</param>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.ProcessList">
+            <summary>
+            List of all running processes.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.SystemInfo">
+            <summary>
+            GlobalMemoryStatus.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.ProcessExplorer.CompactHeaps">
+            <summary>
+            Tries to compact all heaps an free memory.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.ProcessID">
+            <summary>
+            Identifier of the process. 
+            The contents of this member can be used by Win32 API elements.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.Usage">
+            <summary>
+            Number of references to the process. Must be 1.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.ProcessExe">
+            <summary>
+            The path and file name of the executable file for the process.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.DefaultHeapID">
+            <summary>
+            Identifier of the default heap for the process. 
+            The contents of this member has meaning only to the tool help functions. 
+            It is not a handle, nor is it usable by Win32 API elements.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.ModuleID">
+            <summary>
+            Module identifier of the process. Must be 0.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.ThreadCount">
+            <summary>
+            Number of execution threads started by the process.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.ParentProcessID">
+            <summary>
+            Identifier of the process that created the process being examined. 
+            Must be 0.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.PriClassBase">
+            <summary>
+            Base priority of any threads created by this process. 
+            Value is always THREAD_PRIORITY_NORMAL
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.Flags">
+            <summary>
+            Reserved; do not use.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.WindowText">
+            <summary>
+            The text of the owner window, if any.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.Threads">
+            <summary>
+            List of execution threads started by the process.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.Modules">
+            <summary>
+            List of modules that the process is owner of.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.Heaps">
+            <summary>
+            A list of heaps the process owns
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Utilities.ProcessInfo.MemoryUsage">
+            <summary>
+            The MemoryUsage of the process.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.SystemInfo.#ctor">
+            <summary>
+            Initializes a new instance of the SystemInfo class.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.Threading.ITaskBuilder">
+            <summary>
+            Helper class to create "fake" tasks using the TaskCompletionSource. Fake tasks
+            is useful in tests when you want to mock results but also to connect convert 
+            asyncrounous operations that are event based to tasks.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.Threading.TaskCompletionSource">
+            <summary>
+            TaskCompletionSource gives you the ability of controlling a Task, ie, set
+            the outcome manually. 
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.Threading.TaskExtensions">
+            <summary>
+            Extension methods on Task
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.Threading.TaskExtensions.Unwrap(Neo.ApplicationFramework.Interfaces.ITask{Neo.ApplicationFramework.Interfaces.ITask})">
+            <summary>
+            Creates a proxy Task that represents the asynchronous operation of a Task of task.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.Toolhelp32.ProcessEntry32.#ctor">
+            <summary>
+            Initializes a new instance of the PROCESSENTRY32 class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.Toolhelp32.ModuleEntry32.#ctor">
+            <summary>
+            Initializes a new instance of the ModuleEntry32 class.
+            </summary>
+        </member>
+        <member name="M:System.StringExtensions.AddPrefix(System.String,System.String,System.String)">
+            <summary>
+            Appends the given prefix argument to a name using the separator in the pattern of prefix + separator + name
+            provided the param requirements are fulfilled. 
+            </summary>
+            <param name="name">The string with the extension method beeing called upon must be neither null nor empty</param>
+            <param name="prefix">Any prefix, that is neither null nor empty, will be used according to the pattern prefix + separator + name</param>
+            <param name="separator">The separator can be any string except null</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

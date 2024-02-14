@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.50.73.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="ManualValveControl.DigitalClock1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text2" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text4" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text6" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text7" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text8" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button2" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text9" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text10" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text11" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button4" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button6" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button7" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text12" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text13" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button8" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button9" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Button10" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text14" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text17" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text16" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text18" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text19" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text20" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="ManualValveControl.Text21" TargetProperty="FontFamily" Source="Tahoma" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="ManualValveControl.SymbolViewbox9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.ActiveBank" />
+        <Item Target="ManualValveControl.SymbolViewbox4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.ActiveBank" />
+        <Item Target="ManualValveControl.SymbolViewbox13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.ActiveBank" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button1" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button2" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button3" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="ManualValveControl.Button3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.ActiveBank" />
+        <Item Target="ManualValveControl.SymbolViewbox30" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.valve350" />
+        <Item Target="ManualValveControl.SymbolViewbox31" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.valveVent" />
+        <Item Target="ManualValveControl.SymbolViewbox32" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.valve50" />
+        <Item Target="ManualValveControl.SymbolViewbox33" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.valve700" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button4" TargetProperty="Actions" Source="Tags.valve350" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button5" TargetProperty="Actions" Source="Tags.valve50" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button6" TargetProperty="Actions" Source="Tags.valveVent" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button7" TargetProperty="Actions" Source="Tags.valve700" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button8" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="ManualValveControl.Button8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.ActiveBank" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button9" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="ManualValveControl.Button9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.ActiveBank" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button10" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="ManualValveControl.Button10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.ActiveBank" />
+        <Item Target="ManualValveControl.Text17" TargetProperty="Text" Source="Tags.bank1" />
+        <Item Target="ManualValveControl.Text16" TargetProperty="Text" Source="Tags.bank3" />
+        <Item Target="ManualValveControl.Text18" TargetProperty="Text" Source="Tags.bank2" />
+        <Item Target="ManualValveControl.Text19" TargetProperty="Text" Source="Tags.pt350" />
+        <Item Target="ManualValveControl.Text20" TargetProperty="Text" Source="Tags.pt700" />
+        <Item Target="ManualValveControl.Text21" TargetProperty="Text" Source="Tags.pt50" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects">
+          <Details>
+            <Detail>
+              <Key>Picture</Key>
+              <Value>4</Value>
+            </Detail>
+            <Detail>
+              <Key>DigitalClock</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Rectangle</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>11</Value>
+            </Detail>
+            <Detail>
+              <Key>Label</Key>
+              <Value>21</Value>
+            </Detail>
+            <Detail>
+              <Key>SymbolViewbox</Key>
+              <Value>34</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="ManualValveControl.SymbolViewbox1" Source="ManualValveControl.m_SymbolViewbox1.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox" Source="ManualValveControl.m_SymbolViewbox.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox3" Source="ManualValveControl.m_SymbolViewbox3.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox9" Source="ManualValveControl.m_SymbolViewbox9.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox5" Source="ManualValveControl.m_SymbolViewbox5.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox6" Source="ManualValveControl.m_SymbolViewbox6.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox25" Source="ManualValveControl.m_SymbolViewbox25.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox26" Source="ManualValveControl.m_SymbolViewbox26.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox2" Source="ManualValveControl.m_SymbolViewbox2.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox4" Source="ManualValveControl.m_SymbolViewbox4.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox10" Source="ManualValveControl.m_SymbolViewbox10.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox11" Source="ManualValveControl.m_SymbolViewbox11.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox12" Source="ManualValveControl.m_SymbolViewbox12.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox13" Source="ManualValveControl.m_SymbolViewbox13.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox14" Source="ManualValveControl.m_SymbolViewbox14.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox15" Source="ManualValveControl.m_SymbolViewbox15.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox16" Source="ManualValveControl.m_SymbolViewbox16.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox17" Source="ManualValveControl.m_SymbolViewbox17.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox7" Source="ManualValveControl.m_SymbolViewbox7.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox8" Source="ManualValveControl.m_SymbolViewbox8.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox18" Source="ManualValveControl.m_SymbolViewbox18.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox19" Source="ManualValveControl.m_SymbolViewbox19.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox20" Source="ManualValveControl.m_SymbolViewbox20.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox21" Source="ManualValveControl.m_SymbolViewbox21.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox22" Source="ManualValveControl.m_SymbolViewbox22.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox23" Source="ManualValveControl.m_SymbolViewbox23.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox24" Source="ManualValveControl.m_SymbolViewbox24.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox27" Source="ManualValveControl.m_SymbolViewbox27.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox28" Source="ManualValveControl.m_SymbolViewbox28.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox29" Source="ManualValveControl.m_SymbolViewbox29.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox30" Source="ManualValveControl.m_SymbolViewbox30.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox31" Source="ManualValveControl.m_SymbolViewbox31.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox32" Source="ManualValveControl.m_SymbolViewbox32.bmp" />
+        <Item Target="ManualValveControl.SymbolViewbox33" Source="ManualValveControl.m_SymbolViewbox33.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button" TargetProperty="Actions" Source="Maintenance" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>73</ObjectsCount>
+          <ScreenName>ManualValveControl</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="6">
+          <ScreenName>ManualValveControl</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button1" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button2" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button3" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button4" TargetProperty="Actions" Source="Tags.valve350" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button5" TargetProperty="Actions" Source="Tags.valve50" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button6" TargetProperty="Actions" Source="Tags.valveVent" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button7" TargetProperty="Actions" Source="Tags.valve700" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button8" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button9" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ManualValveControl.Button10" TargetProperty="Actions" Source="Tags.ActiveBank" Event="Click" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="ManualValveControl.Picture1" Source="logo (1)" Width="207" Height="32" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ManualValveControl.Picture" Source="capture-fotor-bg-remover-2023120 (1)" Width="224" Height="89" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ManualValveControl.Picture2" Source="capture-fotor-bg-remover-20231204155733 - copy" Width="235" Height="144" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ManualValveControl.Picture3" Source="capture-fotor-bg-remover-2023120 (1)" Width="224" Height="89" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

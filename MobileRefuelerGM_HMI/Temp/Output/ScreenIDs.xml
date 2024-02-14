@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfScreenIDInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScreenIDInformation>
+    <ScreenId>2</ScreenId>
+    <ScreenName>Home</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>3</ScreenId>
+    <ScreenName>Maintenance</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>1</ScreenId>
+    <ScreenName>bootup</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>4</ScreenId>
+    <ScreenName>SystemSettings</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>5</ScreenId>
+    <ScreenName>VariableSettings</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>6</ScreenId>
+    <ScreenName>ManualValveControl</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>7</ScreenId>
+    <ScreenName>pressureSelect</ScreenName>
+  </ScreenIDInformation>
+</ArrayOfScreenIDInformation>

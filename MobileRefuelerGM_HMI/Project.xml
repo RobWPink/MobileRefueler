@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.50.73.0" ProjectRevision="135">
+  <Guid>4bf6c263-2528-4a5e-98cd-e05065601138</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2023-12-04T16:40:37.0130134-05:00" Length="484" />
+    <ProjectFile Name="Symbols\1275725.png" ModifiedDate="2023-08-27T00:19:02.2911128-04:00" Length="24844" />
+    <ProjectFile Name="Symbols\1299001.png" ModifiedDate="2023-08-27T00:11:23.8486343-04:00" Length="140238" />
+    <ProjectFile Name="Symbols\183142.png" ModifiedDate="2023-08-27T00:06:27.2531566-04:00" Length="5835" />
+    <ProjectFile Name="Symbols\360_f_399566794_qm3aysm5iwgzyqmsb4cvnzzmru1yvavb-removebg-preview.png" ModifiedDate="2023-08-28T00:25:42.9671336-04:00" Length="242555" />
+    <ProjectFile Name="Symbols\360_f_555700150_kyqqly5rlfinwxco4ydurmt9lup0ojhi-removebg-preview.png" ModifiedDate="2023-08-28T00:24:48.1191249-04:00" Length="73636" />
+    <ProjectFile Name="Symbols\47-_400__1_-removebg-preview (1).png" ModifiedDate="2023-08-23T15:41:30.136358-04:00" Length="18525" />
+    <ProjectFile Name="Symbols\47-_400__1_-removebg-preview.png" ModifiedDate="2023-08-23T15:39:44.4218656-04:00" Length="18420" />
+    <ProjectFile Name="Symbols\509755-removebg-preview.png" ModifiedDate="2023-08-27T00:08:03.7053803-04:00" Length="66838" />
+    <ProjectFile Name="Symbols\5a2fe906aa0872.9377949715130892866965.png" ModifiedDate="2023-08-26T18:25:16.973-04:00" Length="336585" />
+    <ProjectFile Name="Symbols\dossierdownload.png" ModifiedDate="2023-09-05T09:10:45.1989232-04:00" Length="28250" />
+    <ProjectFile Name="Symbols\kisspng-bubble-water-drop-water-blue-5b3c13d66c6ce9.6194481915306638944441.png" ModifiedDate="2023-08-26T18:25:33.2560228-04:00" Length="405921" />
+    <ProjectFile Name="Symbols\kisspng-drop-bubble-water-shutterstock-blue-water-droplets-5a88ca2e4821e5.6629665815189140942955.png" ModifiedDate="2023-08-26T18:25:19.0114653-04:00" Length="90011" />
+    <ProjectFile Name="Symbols\kisspng-picsart-photo-studio-editing-bubbles-png-clipart-5a79e3fe09a6d6.9350477015179376620395.png" ModifiedDate="2023-08-26T18:28:00.9767346-04:00" Length="163626" />
+    <ProjectFile Name="Symbols\logo (1).png" ModifiedDate="2023-08-26T18:05:48.2121573-04:00" Length="13169" />
+    <ProjectFile Name="Symbols\oneh2_logo-rgb_white (1).png" ModifiedDate="2023-09-06T13:29:04.7273083-04:00" Length="3709" />
+    <ProjectFile Name="Symbols\1290568.jpg" ModifiedDate="2023-08-26T23:24:10.8438599-04:00" Length="103084" />
+    <ProjectFile Name="Symbols\240_f_209172657_md2eru6yslktcejr33zfguoluew5oig0.jpg" ModifiedDate="2023-08-23T16:34:14.2523174-04:00" Length="18034" />
+    <ProjectFile Name="Symbols\509755.jpg" ModifiedDate="2023-08-27T00:06:33.0197629-04:00" Length="24577" />
+    <ProjectFile Name="Symbols\oneh2_logo-rgb_white.jpg" ModifiedDate="2023-09-06T13:26:36.1378171-04:00" Length="723" />
+    <ProjectFile Name="Symbols\picture (1).jpg" ModifiedDate="2023-08-26T18:19:10.0225947-04:00" Length="24115" />
+    <ProjectFile Name="Symbols\picture.jpg" ModifiedDate="2023-08-26T18:12:40.7631855-04:00" Length="4248" />
+    <ProjectFile Name="Symbols\storm-drain-separative-sewer-sewage-treatment-cruelty-free.jpg" ModifiedDate="2023-08-27T00:06:22.0108377-04:00" Length="93847" />
+    <ProjectFile Name="Symbols\textured-caution-tape-frame-background-yellow-vector-45732485.jpg" ModifiedDate="2023-08-28T00:30:42.4722784-04:00" Length="28251" />
+    <ProjectFile Name="Symbols\blue_spinner.gif" ModifiedDate="2023-09-06T13:40:08.9926957-04:00" Length="34917" />
+    <ProjectFile Name="Symbols\circles-menu-3.gif" ModifiedDate="2023-09-06T13:31:35.9306158-04:00" Length="20218" />
+    <ProjectFile Name="Symbols\icon.gif" ModifiedDate="2023-09-06T13:46:06.1683246-04:00" Length="28129" />
+    <ProjectFile Name="Symbols\open (1).gif" ModifiedDate="2023-09-05T09:15:10.2834463-04:00" Length="2547" />
+    <ProjectFile Name="Symbols\output-onlinegiftools.gif" ModifiedDate="2023-09-06T13:33:57.1427031-04:00" Length="39486" />
+    <ProjectFile Name="Symbols\shiny-pokemon-shiny.gif" ModifiedDate="2023-09-06T13:36:30.2579076-04:00" Length="93627" />
+    <ProjectFile Name="Symbols\button black.lib" ModifiedDate="2023-08-23T16:05:13.0610826-04:00" Length="23615" />
+    <ProjectFile Name="Symbols\button blue.lib" ModifiedDate="2023-08-23T16:05:13.0750108-04:00" Length="20992" />
+    <ProjectFile Name="Symbols\button gray.lib" ModifiedDate="2023-08-23T16:05:13.0852816-04:00" Length="21769" />
+    <ProjectFile Name="Symbols\button green.lib" ModifiedDate="2023-08-23T16:05:13.0953121-04:00" Length="24062" />
+    <ProjectFile Name="Symbols\button orange.lib" ModifiedDate="2023-08-23T16:05:13.1192796-04:00" Length="22948" />
+    <ProjectFile Name="Symbols\button purple.lib" ModifiedDate="2023-08-23T16:05:13.1283095-04:00" Length="23453" />
+    <ProjectFile Name="Symbols\button red.lib" ModifiedDate="2023-08-23T16:05:13.1523099-04:00" Length="22995" />
+    <ProjectFile Name="Symbols\button yellow.lib" ModifiedDate="2023-08-23T16:05:13.1843222-04:00" Length="24287" />
+    <ProjectFile Name="Symbols\capture-fotor-bg-remover-20231204155733.png" ModifiedDate="2023-12-04T15:57:37.7657379-05:00" Length="24509" />
+    <ProjectFile Name="Symbols\capture-fotor-bg-remover-2023120 (1).png" ModifiedDate="2023-12-04T16:03:41.675444-05:00" Length="15870" />
+    <ProjectFile Name="Symbols\capture-fotor-bg-remover-2023120.png" ModifiedDate="2023-12-04T16:01:14.8500123-05:00" Length="23713" />
+    <ProjectFile Name="Symbols\capture-fotor-bg-remover-20231204155733 - copy.png" ModifiedDate="2023-12-04T15:59:46.2249751-05:00" Length="25031" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2023-08-23T15:35:12.2366744-04:00" Length="517" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2023-08-23T15:35:12.2596748-04:00" Length="6390" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2023-08-27T21:32:46.882309-04:00" Length="610" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2023-08-27T21:32:46.882309-04:00" Length="731" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2023-08-26T18:01:17.6497114-04:00" Length="13431" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2023-08-23T15:35:12.321456-04:00" Length="459" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2023-12-04T20:41:58.0536331-05:00" Length="53645" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2023-12-04T20:41:58.054019-05:00" Length="1014" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2023-12-04T20:41:58.1186968-05:00" Length="64797" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2023-08-23T15:35:12.6732978-04:00" Length="1056" />
+    <ProjectFile Name="CloudConfiguration.neo" ModifiedDate="2023-08-23T15:35:12.7194136-04:00" Length="2487" />
+    <ProjectFile Name="Home.neoxaml" ModifiedDate="2023-12-04T20:43:53.5859001-05:00" Length="823" />
+    <ProjectFile Name="Home.xaml" ModifiedDate="2023-12-04T20:43:53.7173939-05:00" Length="75011" />
+    <ProjectFile Name="Maintenance.neoxaml" ModifiedDate="2023-12-04T18:50:32.9668319-05:00" Length="830" />
+    <ProjectFile Name="Maintenance.xaml" ModifiedDate="2023-12-04T18:50:32.9956228-05:00" Length="17324" />
+    <ProjectFile Name="bootup.neoxaml" ModifiedDate="2023-10-18T11:46:41.2300303-04:00" Length="825" />
+    <ProjectFile Name="bootup.Script.cs" ModifiedDate="2023-10-18T11:46:41.2300303-04:00" Length="786" />
+    <ProjectFile Name="bootup.xaml" ModifiedDate="2023-10-18T11:46:41.2432203-04:00" Length="3442" />
+    <ProjectFile Name="SystemSettings.neoxaml" ModifiedDate="2023-12-04T17:40:37.000946-05:00" Length="833" />
+    <ProjectFile Name="SystemSettings.xaml" ModifiedDate="2023-12-04T17:40:37.0250242-05:00" Length="9056" />
+    <ProjectFile Name="VariableSettings.neoxaml" ModifiedDate="2023-12-04T18:45:05.6930725-05:00" Length="835" />
+    <ProjectFile Name="VariableSettings.xaml" ModifiedDate="2023-12-04T18:45:05.7591388-05:00" Length="65295" />
+    <ProjectFile Name="ManualValveControl.neoxaml" ModifiedDate="2023-12-04T18:57:33.7757482-05:00" Length="863" />
+    <ProjectFile Name="ManualValveControl.xaml" ModifiedDate="2023-12-04T18:57:34.5484259-05:00" Length="522143" />
+    <ProjectFile Name="pressureSelect.neoxaml" ModifiedDate="2023-12-04T18:57:35.0648329-05:00" Length="855" />
+    <ProjectFile Name="pressureSelect.xaml" ModifiedDate="2023-12-04T18:57:35.0816329-05:00" Length="13143" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2023-08-23T15:35:13.2067874-04:00" Length="850" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2023-12-04T20:41:58.769192-05:00" Length="9873" />
+    <ProjectFile Name="DefaultSettings.neo" ModifiedDate="2023-12-04T20:42:50.2577585-05:00" Length="9741" />
+  </ProjectFiles>
+</Project>

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.50.73.0' LastConverterVersion='2.50.1'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalController, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="Tags" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138">
+    <GlobalDataItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="TargetPressure700" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem1" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="CurrentPressure" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem5" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="InitialPressure" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem6" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="FinalPressure" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem7" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="GSR" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem4" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="LSR" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem3" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="STATE" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem2" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="STATE_ValueChange" />
+        </Events>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="OutOfOrder" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem28" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.SystemDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Description="Name of the latest loaded recipe" NonVolatile="True" Size="100" DataType="DT_STRING" AccessRight="Read" d1p1:Site.Name="SystemTagLatestLoadedRecipeName" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Tools.OpcClient.SystemDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+          <Parameter Name="SystemTagInfoName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Latest Loaded Recipe Name" />
+          </Parameter>
+          <Parameter Name="Name">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="SystemTagLatestLoadedRecipeName" />
+          </Parameter>
+          <Parameter Name="DataType">
+            <Object d1p1:type="Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE, DataSourceInterop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" primitive.value="STRING" />
+          </Parameter>
+          <Parameter Name="Size">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="100" />
+          </Parameter>
+          <Parameter Name="Offset">
+            <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0" />
+          </Parameter>
+          <Parameter Name="Gain">
+            <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="IndexRegisterNumber">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0" />
+          </Parameter>
+          <Parameter Name="LogToAuditTrail">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="TriggerName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value Change" />
+          </Parameter>
+          <Parameter Name="AccessRight">
+            <Object d1p1:type="Core.Api.DataSource.AccessRights, CoreCF.Api, Version=3.0.66.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021">
+              <InstanceDescriptor DeclaringType="Core.Api.DataSource.AccessRights, CoreCF.Api, Version=3.0.66.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021" Name="Read" MemberType="Field" />
+            </Object>
+          </Parameter>
+          <Parameter Name="PollGroupName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="PollGroup1" />
+          </Parameter>
+          <Parameter Name="AlwaysActive">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="NonVolatile">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+          </Parameter>
+          <Parameter Name="GlobalDataType">
+            <Object d1p1:type="Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE, DataSourceInterop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" primitive.value="DEFAULT" />
+          </Parameter>
+          <Parameter Name="Description">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Name of the latest loaded recipe" />
+          </Parameter>
+          <Parameter Name="ArraySize">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="ReadExpression">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+          </Parameter>
+          <Parameter Name="WriteExpression">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+          </Parameter>
+        </InstanceDescriptor>
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="CARR_MOVING_AVG" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem9" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="STALL_THRESHOLD" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem11" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="MIN_ALLOWED_PRESSURE" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem12" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="DELTA_PSI_TIME" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem13" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="DISP_MOVING_AVG" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem14" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="FILL_TIMEOUT" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem15" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="SECOND_CHECK" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem27" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.SystemDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Description="Number of active communication errors on all controllers" DataType="DT_INTEGER2" AccessRight="Read" d1p1:Site.Name="SystemTagCommunicationErrors" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Tools.OpcClient.SystemDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+          <Parameter Name="SystemTagInfoName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Communication Errors" />
+          </Parameter>
+          <Parameter Name="Name">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="SystemTagCommunicationErrors" />
+          </Parameter>
+          <Parameter Name="DataType">
+            <Object d1p1:type="Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE, DataSourceInterop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" primitive.value="INT16" />
+          </Parameter>
+          <Parameter Name="Size">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="Offset">
+            <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0" />
+          </Parameter>
+          <Parameter Name="Gain">
+            <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="IndexRegisterNumber">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0" />
+          </Parameter>
+          <Parameter Name="LogToAuditTrail">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="TriggerName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value Change" />
+          </Parameter>
+          <Parameter Name="AccessRight">
+            <Object d1p1:type="Core.Api.DataSource.AccessRights, CoreCF.Api, Version=3.0.66.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021">
+              <InstanceDescriptor DeclaringType="Core.Api.DataSource.AccessRights, CoreCF.Api, Version=3.0.66.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021" Name="Read" MemberType="Field" />
+            </Object>
+          </Parameter>
+          <Parameter Name="PollGroupName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="PollGroup1" />
+          </Parameter>
+          <Parameter Name="AlwaysActive">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="NonVolatile">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="GlobalDataType">
+            <Object d1p1:type="Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE, DataSourceInterop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" primitive.value="DEFAULT" />
+          </Parameter>
+          <Parameter Name="Description">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Number of active communication errors on all controllers" />
+          </Parameter>
+          <Parameter Name="ArraySize">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="ReadExpression">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+          </Parameter>
+          <Parameter Name="WriteExpression">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+          </Parameter>
+        </InstanceDescriptor>
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" InitialValue="0" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.SystemDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Description="The ID of the current screen" DataType="DT_INTEGER2" AccessRight="Read" d1p1:Site.Name="SystemTagCurrentScreenId" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Tools.OpcClient.SystemDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+          <Parameter Name="SystemTagInfoName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Current Screen Id" />
+          </Parameter>
+          <Parameter Name="Name">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="SystemTagCurrentScreenId" />
+          </Parameter>
+          <Parameter Name="DataType">
+            <Object d1p1:type="Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE, DataSourceInterop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" primitive.value="INT16" />
+          </Parameter>
+          <Parameter Name="Size">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="Offset">
+            <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0" />
+          </Parameter>
+          <Parameter Name="Gain">
+            <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="IndexRegisterNumber">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0" />
+          </Parameter>
+          <Parameter Name="LogToAuditTrail">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="TriggerName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value Change" />
+          </Parameter>
+          <Parameter Name="AccessRight">
+            <Object d1p1:type="Core.Api.DataSource.AccessRights, CoreCF.Api, Version=3.0.66.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021">
+              <InstanceDescriptor DeclaringType="Core.Api.DataSource.AccessRights, CoreCF.Api, Version=3.0.66.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021" Name="Read" MemberType="Field" />
+            </Object>
+          </Parameter>
+          <Parameter Name="PollGroupName">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="PollGroup1" />
+          </Parameter>
+          <Parameter Name="AlwaysActive">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="NonVolatile">
+            <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+          </Parameter>
+          <Parameter Name="GlobalDataType">
+            <Object d1p1:type="Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE, DataSourceInterop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" primitive.value="DEFAULT" />
+          </Parameter>
+          <Parameter Name="Description">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="The ID of the current screen" />
+          </Parameter>
+          <Parameter Name="ArraySize">
+            <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+          </Parameter>
+          <Parameter Name="ReadExpression">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+          </Parameter>
+          <Parameter Name="WriteExpression">
+            <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+          </Parameter>
+        </InstanceDescriptor>
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" InitialValue="-1" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="valve700" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem25" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="valve350" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem24" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="valve50" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem23" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="valveVent" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem26" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="bank1" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem18" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="bank2" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem19" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="bank3" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem20" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="manifold" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem21" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="TargetPressure350" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem17" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="PressureSetting" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem10" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="ActiveBank" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem8" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="H2SNIFFER_TOL" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem16" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="PSI_LOSS_TOL" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem22" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="pt50" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem29" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="pt350" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem30" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="pt700" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem31" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="extra1" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem32" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="extra2" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem33" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="extra3" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem34" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+    </GlobalDataItems>
+    <PollGroups>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup1" Interval="500" d1p1:Site.Name="PollGroup1" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup2" Interval="500" d1p1:Site.Name="PollGroup2" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup3" Interval="500" d1p1:Site.Name="PollGroup3" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup4" Interval="500" d1p1:Site.Name="PollGroup4" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup5" Interval="500" d1p1:Site.Name="PollGroup5" ProjectGuid="4bf6c263-2528-4a5e-98cd-e05065601138" />
+    </PollGroups>
+  </Object>
+</NeoItem>

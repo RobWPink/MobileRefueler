@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.50.73.0' LastConverterVersion='2.50.1'?>
+<nacs:ScreenWindow Topmost="False" Title="bootup" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="800, 480" ScreenID="1" PopupScreen="False" StyleName="Default" IsCacheable="True" Background="#FF5BB4E0" Width="800" Height="480" nai:SecurityProperties.SecurityGroupsRequired="None" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacsd="clr-namespace:Neo.ApplicationFramework.Controls.Screen.Design;assembly=Controls" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" x:Class="Neo.ApplicationFramework.Generated.bootup">
+  <nai:ActionProperties.Actions>
+    <nai:ActionList>
+      <nata:Action Name="Load Recipe">
+        <nata:Action.ActionMethodInfo>
+          <nata:ActionMethodInfo Name="LoadRecipe" ObjectName="DefaultSettings" EventName="Closing" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+            <nata:ActionMethodInfo.ActionParameterInfo>
+              <nai:ActionParameterInfoList>
+                <nata:ActionParameterInfo Position="{x:Null}" Value="Default" ParameterName="recipeFieldName" ParameterTypeString="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" TagName="" />
+              </nai:ActionParameterInfoList>
+            </nata:ActionMethodInfo.ActionParameterInfo>
+          </nata:ActionMethodInfo>
+        </nata:Action.ActionMethodInfo>
+      </nata:Action>
+    </nai:ActionList>
+  </nai:ActionProperties.Actions>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nacs1:Picture SymbolName="oneh2_logo-rgb_white (1)" Name="m_Picture" Width="658" Height="175" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="71" Canvas.Top="80" nacsd:EditorProperties.IsLocked="True" />
+    <nac:Label Text="Connecting. Please wait..." Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="316" Canvas.Top="245" nacsd:EditorProperties.IsLocked="True" nacsd:EditorProperties.IsHidden="False">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nacs1:AnimatedPicture SymbolName="blue_spinner" Stretch="True" Name="m_AnimatedGIF" Width="64" Height="64" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="368" Canvas.Top="318" />
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

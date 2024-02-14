@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.50.73.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="VariableSettings.DigitalClock1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Button" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.btnSaveRecipe" TargetProperty="FontFamily" Source="Arial" />
+        <Item Target="VariableSettings.Button1" TargetProperty="FontFamily" Source="Arial" />
+        <Item Target="VariableSettings.Text2" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text6" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text4" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text9" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text7" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text8" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric7" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric2" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric8" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric6" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.AnalogNumeric4" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="VariableSettings.Text1" TargetProperty="FontFamily" Source="Tahoma" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="VariableSettings.Text2" TargetProperty="Value" Source="Tags.SystemTagLatestLoadedRecipeName" />
+        <Item Target="VariableSettings.AnalogNumeric" TargetProperty="Value" Source="Tags.TargetPressure350" />
+        <Item Target="VariableSettings.AnalogNumeric7" TargetProperty="Value" Source="Tags.SECOND_CHECK" />
+        <Item Target="VariableSettings.AnalogNumeric1" TargetProperty="Value" Source="Tags.DISP_MOVING_AVG" />
+        <Item Target="VariableSettings.AnalogNumeric2" TargetProperty="Value" Source="Tags.CARR_MOVING_AVG" />
+        <Item Target="VariableSettings.AnalogNumeric3" TargetProperty="Value" Source="Tags.STALL_THRESHOLD" />
+        <Item Target="VariableSettings.AnalogNumeric8" TargetProperty="Value" Source="Tags.MIN_ALLOWED_PRESSURE" />
+        <Item Target="VariableSettings.AnalogNumeric5" TargetProperty="Value" Source="Tags.FILL_TIMEOUT" />
+        <Item Target="VariableSettings.AnalogNumeric6" TargetProperty="Value" Source="Tags.DELTA_PSI_TIME" />
+        <Item Target="VariableSettings.AnalogNumeric4" TargetProperty="Value" Source="Tags.TargetPressure700" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects">
+          <Details>
+            <Detail>
+              <Key>Picture</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>DigitalClock</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>3</Value>
+            </Detail>
+            <Detail>
+              <Key>Rectangle</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>Label</Key>
+              <Value>10</Value>
+            </Detail>
+            <Detail>
+              <Key>SymbolViewbox</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>AnalogNumericFX</Key>
+              <Value>9</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items>
+        <Item xsi:type="ActionItem" Target="VariableSettings.btnSaveRecipe" TargetProperty="Actions" Source="DefaultSettings" Event="Click" Action="Save Recipe" Param="" />
+        <Item xsi:type="ActionItem" Target="VariableSettings.Button1" TargetProperty="Actions" Source="DefaultSettings" Event="Click" Action="Load Recipe" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="VariableSettings.SymbolViewbox" Source="VariableSettings.m_SymbolViewbox.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="VariableSettings.Button" TargetProperty="Actions" Source="Maintenance" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>27</ObjectsCount>
+          <ScreenName>VariableSettings</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="5">
+          <ScreenName>VariableSettings</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="VariableSettings.Picture1" Source="logo (1)" Width="207" Height="32" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="VariableSettings.btnSaveRecipe" Source="dossierdownload" Width="46" Height="46" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="VariableSettings.Button1" Source="open (1)" Width="29" Height="45" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

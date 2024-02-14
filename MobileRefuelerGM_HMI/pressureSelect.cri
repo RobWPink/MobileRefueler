@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.50.73.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="pressureSelect.DigitalClock1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="pressureSelect.Button" TargetProperty="FontFamily" Source="Arial Black" />
+        <Item Target="pressureSelect.Button1" TargetProperty="FontFamily" Source="Arial Black" />
+        <Item Target="pressureSelect.Button2" TargetProperty="FontFamily" Source="Arial Black" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button" TargetProperty="Actions" Source="Tags.PressureSetting" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button1" TargetProperty="Actions" Source="Tags.PressureSetting" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button2" TargetProperty="Actions" Source="Tags.PressureSetting" Event="Click" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects">
+          <Details>
+            <Detail>
+              <Key>Picture</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>DigitalClock</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>3</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button" TargetProperty="Actions" Source="Home" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button1" TargetProperty="Actions" Source="Home" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button2" TargetProperty="Actions" Source="Home" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>6</ObjectsCount>
+          <ScreenName>pressureSelect</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="7">
+          <ScreenName>pressureSelect</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button" TargetProperty="Actions" Source="Tags.PressureSetting" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button1" TargetProperty="Actions" Source="Tags.PressureSetting" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="pressureSelect.Button2" TargetProperty="Actions" Source="Tags.PressureSetting" Event="Click" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="pressureSelect.Picture1" Source="logo (1)" Width="207" Height="32" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="pressureSelect.Picture3" Source="kisspng-picsart-photo-studio-editing-bubbles-png-clipart-5a79e3fe09a6d6.9350477015179376620395" Width="813" Height="610" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.50.73.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Tags" TargetProperty="TargetPressure700" Source="Controller1.DataItem1" />
+        <Item Target="Tags" TargetProperty="CurrentPressure" Source="Controller1.DataItem5" />
+        <Item Target="Tags" TargetProperty="InitialPressure" Source="Controller1.DataItem6" />
+        <Item Target="Tags" TargetProperty="FinalPressure" Source="Controller1.DataItem7" />
+        <Item Target="Tags" TargetProperty="GSR" Source="Controller1.DataItem4" />
+        <Item Target="Tags" TargetProperty="LSR" Source="Controller1.DataItem3" />
+        <Item Target="Tags" TargetProperty="STATE" Source="Controller1.DataItem2" />
+        <Item Target="Tags" TargetProperty="OutOfOrder" Source="Controller1.DataItem28" />
+        <Item Target="Tags" TargetProperty="CARR_MOVING_AVG" Source="Controller1.DataItem9" />
+        <Item Target="Tags" TargetProperty="STALL_THRESHOLD" Source="Controller1.DataItem11" />
+        <Item Target="Tags" TargetProperty="MIN_ALLOWED_PRESSURE" Source="Controller1.DataItem12" />
+        <Item Target="Tags" TargetProperty="DELTA_PSI_TIME" Source="Controller1.DataItem13" />
+        <Item Target="Tags" TargetProperty="DISP_MOVING_AVG" Source="Controller1.DataItem14" />
+        <Item Target="Tags" TargetProperty="FILL_TIMEOUT" Source="Controller1.DataItem15" />
+        <Item Target="Tags" TargetProperty="SECOND_CHECK" Source="Controller1.DataItem27" />
+        <Item Target="Tags" TargetProperty="valve700" Source="Controller1.DataItem25" />
+        <Item Target="Tags" TargetProperty="valve350" Source="Controller1.DataItem24" />
+        <Item Target="Tags" TargetProperty="valve50" Source="Controller1.DataItem23" />
+        <Item Target="Tags" TargetProperty="valveVent" Source="Controller1.DataItem26" />
+        <Item Target="Tags" TargetProperty="bank1" Source="Controller1.DataItem18" />
+        <Item Target="Tags" TargetProperty="bank2" Source="Controller1.DataItem19" />
+        <Item Target="Tags" TargetProperty="bank3" Source="Controller1.DataItem20" />
+        <Item Target="Tags" TargetProperty="manifold" Source="Controller1.DataItem21" />
+        <Item Target="Tags" TargetProperty="TargetPressure350" Source="Controller1.DataItem17" />
+        <Item Target="Tags" TargetProperty="PressureSetting" Source="Controller1.DataItem10" />
+        <Item Target="Tags" TargetProperty="ActiveBank" Source="Controller1.DataItem8" />
+        <Item Target="Tags" TargetProperty="H2SNIFFER_TOL" Source="Controller1.DataItem16" />
+        <Item Target="Tags" TargetProperty="PSI_LOSS_TOL" Source="Controller1.DataItem22" />
+        <Item Target="Tags" TargetProperty="pt50" Source="Controller1.DataItem29" />
+        <Item Target="Tags" TargetProperty="pt350" Source="Controller1.DataItem30" />
+        <Item Target="Tags" TargetProperty="pt700" Source="Controller1.DataItem31" />
+        <Item Target="Tags" TargetProperty="extra1" Source="Controller1.DataItem32" />
+        <Item Target="Tags" TargetProperty="extra2" Source="Controller1.DataItem33" />
+        <Item Target="Tags" TargetProperty="extra3" Source="Controller1.DataItem34" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="PollGroups">
+          <Details>
+            <Detail>
+              <Key>Group1</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group2</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group3</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group4</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group5</Key>
+              <Value>500</Value>
+            </Detail>
+          </Details>
+        </Item>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="DataExchange">
+          <Details>
+            <Detail>
+              <Key>DataExchangeTags</Key>
+              <Value>0</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.STATE" />
+        <Item Target="Tags.Script.cs" Source="Tags.STATE" />
+        <Item Target="Tags.Script.cs" Source="Tags.SystemTagCurrentScreenId" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

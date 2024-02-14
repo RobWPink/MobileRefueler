@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.50.73.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Maintenance.DigitalClock" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Button" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Button1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Button2" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Button3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.AnalogNumeric" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Text" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Text1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Button5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Text4" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Group.Text5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Text3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Maintenance.Button4" TargetProperty="FontFamily" Source="Tahoma" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Maintenance.AnalogNumeric" TargetProperty="Value" Source="Tags.CurrentPressure" />
+        <Item Target="Maintenance.Text4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.OutOfOrder" />
+        <Item Target="Maintenance.Text3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.OutOfOrder" />
+        <Item xsi:type="ActionItem" Target="Maintenance.Button4" TargetProperty="Actions" Source="Tags.OutOfOrder" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects">
+          <Details>
+            <Detail>
+              <Key>Picture</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>DigitalClock</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>6</Value>
+            </Detail>
+            <Detail>
+              <Key>AnalogNumericFX</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Label</Key>
+              <Value>5</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="Maintenance.Button4" Source="1165728038_Normal.bmp" />
+        <Item Target="Maintenance.Button4" Source="1165728038_Pressed.bmp" />
+        <Item Target="Maintenance.Button4" Source="1165728038_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Maintenance.Button" TargetProperty="Actions" Source="Home" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Maintenance.Button1" TargetProperty="Actions" Source="VariableSettings" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="Maintenance.Button5" TargetProperty="Actions" Source="SystemSettings" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>15</ObjectsCount>
+          <ScreenName>Maintenance</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="3">
+          <ScreenName>Maintenance</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Maintenance.Button4" TargetProperty="Actions" Source="Tags.OutOfOrder" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Maintenance.Picture" Source="logo (1)" Width="207" Height="32" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Maintenance.Group.Picture2" Source="textured-caution-tape-frame-background-yellow-vector-45732485" Width="114" Height="114" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

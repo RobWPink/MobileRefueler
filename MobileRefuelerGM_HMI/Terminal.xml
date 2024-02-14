@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.50.73.0' LastConverterVersion='2.50.1'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Terminal.Terminal, Tools, Version=2.50.73.0, Culture=neutral, PublicKeyToken=null" FilePath="X2extreme7.xml" ScreenSize="800,480" ScreenRotationAngle="0" BorderStyle="ThreeDBorder" MaximizeOnStartup="False" SortingPriority="70" Topmost="False" />
+</NeoItem>

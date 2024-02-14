@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common</name>
+    </assembly>
+    <members>
+        <member name="T:Neo.ApplicationFramework.Common.Converters.ColorConverterFX">
+            <summary>
+            Color converter for converting between FX Colors (<code>System.Windows.Media.Color</code>)
+            and .Net 2.0 Colors (<code>System.Drawing.Color</code>).
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Converters.EnumValueConverter">
+            <summary>
+            Converts between different Enum values by trying to find matching value with same
+            name in destination enum.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Converters.ValueToTextConverter">
+            <summary>
+            Converter that will attempt to convert the Value property of the Label/Button
+            to a text to display as the MultiText's Content.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChanged.SetAndFirePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}},``0@,``0)">
+            <summary>
+            Sets the specified new value, and fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+            event if the new value is different from the old value.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="propertyExpression">An expression pointing to the property being changed.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+            <returns>true if value was changed; otherwise false.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChanged.FirePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            Fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> event on property
+            described by specified expression.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="propertyExpression">An expression pointing to the property being changed.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChanged.FirePropertyChanged(System.String)">
+            <summary>
+            Fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> event on property
+            described by specified expression.
+            </summary>
+            <param name="name">Name of the property being changed (normally pass null to use the name of the current property).</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChanged.FirePropertiesChanged">
+            <summary>
+            Fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> event on all properties.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChanged.CreatePropertyChangedHelper">
+            <summary>
+            Creates a <see cref="T:Neo.ApplicationFramework.PropertyChangeHelpers.NotifyPropertyChangedHelperBase" />.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedHelper.#ctor(System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedHelper" /> class.
+            </summary>
+            <param name="owner">The owner.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedHelper.SetAndFirePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}},``0@,``0)">
+            <summary>
+            Sets the specified new value, and fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+            event if the new value is different from the old value.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="propertyExpression">An expression pointing to the property being changed.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+            <returns>true if value was changed; otherwise false.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedHelper.SetAndFirePropertyChanged``2(System.Linq.Expressions.Expression{System.Func{``0}},``0@,``0,System.Linq.Expressions.Expression{System.Func{``1}})">
+            <summary>
+            Sets the specified new value, and fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+            event if the new value is different from the old value.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <typeparam name="TDependentProperty">The type of the dependant property.</typeparam>
+            <param name="propertyExpression">An expression pointing to the property being changed.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+            <param name="dependentPropertyExpression">
+            Expression to property depending on this property.
+            </param>
+            <returns>true if value was changed; otherwise false.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedHelper.SetAndFirePropertyChanged``3(System.Linq.Expressions.Expression{System.Func{``0}},``0@,``0,System.Linq.Expressions.Expression{System.Func{``1}},System.Linq.Expressions.Expression{System.Func{``2}})">
+            <summary>
+            Sets the specified new value, and fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+            event if the new value is different from the old value.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <typeparam name="TFirstDependentProperty">The type of the first dependant property.</typeparam>
+            <typeparam name="TSecondDependentProperty">The type of the second dependant property.</typeparam>
+            <param name="propertyExpression">An expression pointing to the property being changed.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+            <param name="firstDependentPropertyExpression">
+            First expression to property depending on this property.
+            </param>
+            <param name="secondDependentPropertyExpression">
+            Second expression to property depending on this property.
+            </param>
+            <returns>true if value was changed; otherwise false.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedHelper.SetAndFirePropertyChanged``4(System.Linq.Expressions.Expression{System.Func{``0}},``0@,``0,System.Linq.Expressions.Expression{System.Func{``1}},System.Linq.Expressions.Expression{System.Func{``2}},System.Linq.Expressions.Expression{System.Func{``3}})">
+            <summary>
+            Sets the specified new value, and fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+            event if the new value is different from the old value.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <typeparam name="TFirstDependentProperty">The type of the first dependant property.</typeparam>
+            <typeparam name="TSecondDependentProperty">The type of the second dependant property.</typeparam>
+            <typeparam name="TThirdDependentProperty">The type of the third dependant property.</typeparam>
+            <param name="propertyExpression">An expression pointing to the property being changed.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+            <param name="firstDependentPropertyExpression">
+            First expression to property depending on this property.
+            </param>
+            <param name="secondDependentPropertyExpression">
+            Second expression to property depending on this property.
+            </param>
+            <param name="thirdDependentPropertyExpression">
+            Third expression to property depending on this property.
+            </param>
+            <returns>true if value was changed; otherwise false.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.NotifyPropertyChangedHelper.FirePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            Fires the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> event on property
+            described by specified expression.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="propertyExpression">An expression pointing to the property being changed.</param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Data.PropertyObserver`1">
+            <summary>
+            Monitors the PropertyChanged event of an object that implements INotifyPropertyChanged,
+            and executes callback methods (i.e. handlers) registered for properties of that object.
+            </summary>
+            <typeparam name="TPropertySource">The type of object to monitor for property changes.</typeparam>
+            <remarks>
+            Code is originally written by Josh Smith. Read more about the class here:
+            http://joshsmithonwpf.wordpress.com/2009/07/11/one-way-to-avoid-messy-propertychanged-event-handling/
+            </remarks>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.PropertyObserver`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of PropertyObserver, which observes the 'propertySource'
+            object for property changes.
+            </summary>
+            <param name="propertySource">The object to monitor for property changes.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.PropertyObserver`1.RegisterHandler(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Action{`0})">
+            <summary>
+            Registers a callback to be invoked when the PropertyChanged event has been raised for
+            the specified property.
+            </summary>
+            <param name="expression">A lambda expression like 'n =&gt; n.PropertyName'.</param>
+            <param name="handler">The callback to invoke when the property has changed.</param>
+            <returns>
+            The object on which this method was invoked, to allow for multiple invocations chained together.
+            </returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.PropertyObserver`1.UnregisterHandler(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Removes the callback associated with the specified property.
+            </summary>
+            <param name="expression">A lambda expression like 'n =&gt; n.PropertyName'.</param>
+            <returns>
+            The object on which this method was invoked, to allow for multiple invocations chained together.
+            </returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Data.SmartObservableCollection`1">
+            <summary>
+            Provides all facilities of <see cref="T:System.Collections.ObjectModel.ObservableCollection`1" /> and some more features that are missed from it.
+            </summary>
+            <typeparam name="T">The element type.</typeparam>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Data.SmartObservableCollection`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds the specified range of elements to the collection.
+            </summary>
+            <param name="range">The range of elements to add.</param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.BoolDynamicsConverter.#ctor">
+            <summary>
+            Initializes a new instance of the BoolDynamicsConverter class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.BrushDynamicsConverter.#ctor">
+            <summary>
+            Initializes a new instance of the BrushConverter class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.MessageLibraryDynamicsConverter.#ctor">
+            <summary>
+            Only there to support xml serialization!
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Dynamics.StringIntervalList">
+            <summary>
+            Inherit generic type, since XamlWriter cannot serialize generics.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.StringIntervalMapper.#ctor">
+            <summary>
+            Only to be used when hosted by Non-FrameworkElements
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Dynamics.TextIdConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            We use the paramter instead of DefaultValue since that's unique for all intervals when deserialized, since they use a static converter.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Extensions.System.ActionExtensions.Once(System.Action,System.Boolean)">
+            <summary>
+            Makes sure that an action is run only once
+            </summary>
+            <param name="action">The argument to the Action method being called</param>
+            <param name="threadSafe">Makes sure that multiple thread can invoke the action and only one will run</param>
+            <returns></returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Extensions.System.ActionExtensions.Once``1(System.Action{``0},System.Boolean)">
+            <summary>
+            Makes sure that an action is run only once
+            </summary>
+            <typeparam name="T">The argument to the Action method being called</typeparam>
+            <param name="action">The action to be run only once</param>
+            <param name="threadSafe">Makes sure that multiple thread can invoke the action and only one will run</param>
+            <returns></returns>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.FileLogic.FilePathLogic">
+            <summary>
+            Help class to set up correct file paths for generated files 
+            on the execution environment Windows.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapHelper.MakeTransparent(System.Windows.Media.Imaging.BitmapSource)">
+            <summary>
+            All pixels that has the same color as the first (top-left) are replaced
+            with the same new transparent color (A= 0, R=255, G=255, B=255).
+            The returned BitmapSource could be in another format than the supplied.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapHelper.ConvertToCETransparencyFormat(System.Windows.Media.Imaging.BitmapSource,System.Boolean@)">
+            <summary>
+            Replaces all pixels with some transparency with the Fuchsia color.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.BitmapHelper.ConvertToCETransparencyFormat(System.Windows.Media.Imaging.BitmapSource)">
+            <summary>
+            Replaces all pixels with some transparency with the Fuchsia color.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Graphics.BitmapModifierBase.ColorBgra">
+            <summary>
+            Most of this struct borrowed from the Paint.NET sourcecode.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.ImageInfo.#ctor">
+            <summary>
+            Initializes a new instance of the ImageInfo class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Graphics.ImageInfo.Check">
+            Call this method after you have provided an input stream or file
+            using {@link #setInput(InputStream)} or {@link #setInput(DataInput)}.
+            If true is returned, the file format was known and information
+            on the file's content can be retrieved using the various getXyz methods.
+            @return if information could be retrieved from input
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Graphics.ThumbnailCreator">
+            <summary>
+            Summary description for ThumbnailCreator.
+            </summary>
+        </member>
+        <member name="E:Neo.ApplicationFramework.Common.Hooks.GlobalKeyboardHook.KeyDown">
+            <summary>
+            Occurs when the user presses a key
+            </summary>
+        </member>
+        <member name="E:Neo.ApplicationFramework.Common.Hooks.GlobalKeyboardHook.KeyPress">
+            <summary>
+            Occurs when the user presses and releases 
+            </summary>
+        </member>
+        <member name="E:Neo.ApplicationFramework.Common.Hooks.GlobalKeyboardHook.KeyUp">
+            <summary>
+            Occurs when the user releases a key
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Hooks.GlobalKeyboardHook.KeyboardHookStruct">
+            <summary>
+            The KBDLLHOOKSTRUCT structure contains information about a low-level keyboard input event. 
+            </summary>
+            <remarks>
+            http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/windowing/hooks/hookreference/hookstructures/cwpstruct.asp
+            </remarks>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Hooks.GlobalKeyboardHook.#ctor">
+            <summary>
+            Initializes a new instance of the MouseHook class.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Hooks.GlobalMouseHook.POINT">
+            <summary>
+            The POINT structure defines the x- and y- coordinates of a point. 
+            </summary>
+            <remarks>
+            http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdi/rectangl_0tiq.asp
+            </remarks>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Hooks.GlobalMouseHook.MouseHookStruct">
+            <summary>
+            The MOUSEHOOKSTRUCT structure contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc. 
+            </summary>
+            <remarks>
+            http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/windowing/hooks/hookreference/hookstructures/cwpstruct.asp
+            </remarks>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Hooks.GlobalMouseHook.MouseLLHookStruct">
+            <summary>
+            The MSLLHOOKSTRUCT structure contains information about a low-level keyboard input event. 
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Hooks.GlobalMouseHook.#ctor">
+            <summary>
+            Initializes a new instance of the MouseHook class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Logic.ArcLogic.#ctor">
+            <summary>
+            Initializes a new instance of the ArcLogic class.
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Logic.ArcLogic.StartAngle">
+            <summary>
+            Angle in degrees
+            </summary>
+        </member>
+        <member name="P:Neo.ApplicationFramework.Common.Logic.ArcLogic.EndAngle">
+            <summary>
+            Angle in degrees
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.MultiLanguage.MultiLanguageExtension">
+            <summary>
+            Extension class used for code generation, full framework
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Printer.GdiPrinter.NativeWrappers.NativeGdiPC">
+            <summary>
+            Wrapper class that communicates with the printer driver.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Security.SecurityMessageFilter">
+            <summary>
+            Security message filter for full framework.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.StyleMarkupExtension.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the StyleMarkupExtension class.
+            </summary>
+            <param name="styleResourceName"></param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFFontStyleConverter.#ctor(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>
+            Initializes a new instance of the WPFToCFFontStyleConverter class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFFontWeightConverter.#ctor(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>
+            Initializes a new instance of the WPFToCFFontWeightConverter class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFTextDecorationsConverter.#ctor(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>
+            Initializes a new instance of the WPFToCFTextDecorationsConverter class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFThicknessConverter.#ctor(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>
+            Initializes a new instance of the WPFToCFBrushConverter class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFTypeConverter.#ctor(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>
+            Initializes a new instance of the WPFToCFBrushConverter class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFTypeDescriptionProvider.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the WPFToCFTypeDescriptionProvider class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFTypeDescriptor.#ctor(Neo.ApplicationFramework.Common.TypeConverters.WPFToCFTypeDescriptionProvider,System.ComponentModel.ICustomTypeDescriptor,System.Type)">
+            <summary>
+            Initializes a new instance of the WPFToCFBrushTypeDescriptor class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.TypeConverters.WPFToCFVisibilityConverter.#ctor(System.ComponentModel.ICustomTypeDescriptor)">
+            <summary>
+            Initializes a new instance of the WPFToCFVisibilityConverter class.
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.BlockRecursionScope">
+            <summary>
+            This class is made to dissallow recursive calls to a method. 
+            It will throw an exception when a recursive calls is being made. 
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.DependencyObjectPropertyBinder.#ctor(Neo.ApplicationFramework.Interfaces.IDataItemProxyProvider)">
+            <summary></summary>
+            <param name="dataItemProxyProvider"></param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.DependencyObjectPropertyBinder.GetBindingSourceDescription(System.Windows.Data.Binding)">
+            <summary>
+            This method converts a Binding object into an BindingSourceDescription object.
+            </summary>
+            <param name="binding">The binding to convert.</param>
+            <returns>An BindingSourceDescription object, describing the binding source.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.ElementHelper.FindTransform``1(System.Windows.Media.Transform)">
+            <summary>
+            Checks if the transform is of the specified type.
+            If the transform is a transform group, the transform type will be searched for.
+            </summary>
+            <typeparam name="T">The transform type to search for.</typeparam>
+            <param name="transform">The transform to search among.</param>
+            <returns>The first transform of the specified type, or null if not found.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.ElementHelper.FindTransforms``1(System.Windows.Media.Transform)">
+            <summary>
+            Searches for all transforms of the specified type.
+            </summary>
+            <typeparam name="T">The transform type to search for.</typeparam>
+            <param name="transform">The transform to search among.</param>
+            <returns>A collection of the transforms found.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.FileHelper.TryReadAllText(System.String,System.Int32)">
+            <summary>
+            Reads content of the specified file with retries.
+            </summary>
+            <param name="path">The file to read content from.</param>
+            <param name="tryCount">The count of tries in case of a failure.</param>
+            <returns>The content of the file.</returns>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NativeAPI.SetRenderingMode">
+            <summary>
+             Introduced for Optimus first revision, controlled by BeHWApi.ShouldDisableVisualThemes
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NeoZipFile.#ctor(System.String,System.String)">
+            <summary>
+            NeoZipFile Create a new instance of a NeoZipfile.
+            Creates the zip file if it does not exist.
+            Remember to close streams if you call OpenRead and get at stream back.
+            </summary>
+            <param name="zipFilePath"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NeoZipFile.#ctor(System.String)">
+            <summary>
+            NeoZipFile Create a new instance of a NeoZipfile.
+            Creates the zip file if it does not exist.
+            Remember to close streams if you call OpenRead and get at stream back.
+            </summary>
+            <param name="zipFilePath"></param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.NeoZipFile.Delete">
+            <summary>
+            Delete will close streams that have been opened from within the zip file
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.StringIntervalHelper.StringIntervalDefaultFactory">
+            <summary>
+            Needed for unit test being able to provide mocked StringIntervalMapper
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Utilities.SuppressActionChangedScope">
+            <summary>
+            Use this scope if you want to make changes in an action, for example update action properties, without triggering an action change, which will redraw the property grid control.
+            This class makes sure that any code executed within this scope will not trigger any action changed events.
+            When nested scopes appear, action changed events will be suppressed until the outer most scope is disposed.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.TransferCommandType.#ctor">
+            <summary>
+            Initializes a new instance of the TransferCommandType class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.TransferCommandType.#ctor(Neo.ApplicationFramework.Common.Utilities.TransferCommandTypeEnum,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the TransferCommandType class.
+            </summary>
+            <param name="transferCommandType"></param>
+            <param name="name"></param>
+            <param name="description"></param>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.TransferCommandTypes.#ctor">
+            <summary>
+            Initializes a new instance of the TransferCommandTypes class.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Common.Utilities.TransferDeploymentCommand.#ctor(Neo.ApplicationFramework.Common.Utilities.TransferCommandType,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the TransferDeploymentCommand class.
+            </summary>
+            <param name="commandType"></param>
+            <param name="arguments"></param>
+            <param name="displayText"></param>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Common.Xaml.Serializer.TextIdSerializationHelper">
+            <summary>
+            Contains help functionality to serialize / deserialize static Text Id to/from XAML
+            </summary>
+        </member>
+        <member name="T:Neo.ApplicationFramework.Interfaces.PropertyBinderWpfExtensions">
+            <summary>
+            Class containing extensions to <see cref="T:Neo.ApplicationFramework.Interfaces.IPropertyBinderWpf" />.
+            </summary>
+        </member>
+        <member name="M:Neo.ApplicationFramework.Interfaces.PropertyBinderWpfExtensions.GetMultiLanguageBinding(Neo.ApplicationFramework.Interfaces.IPropertyBinderWpf,System.Object,System.Windows.DependencyProperty)">
+            <summary>
+            Gets the multi language binding i.e. ResourceItem binding
+            </summary>
+        </member>
+        <member name="M:System.Windows.WindowExtensions.AssignBrandIconToWindow(System.Windows.Window)">
+            <summary>
+            Assigns the default brand icon to the specified window
+            </summary>
+            <param name="window"></param>
+        </member>
+        <member name="P:System.Windows.WindowExtensions.MainScreenWindowHandle">
+            <summary>
+            Gets the main screen window handle in runtime
+            </summary>
+        </member>
+        <member name="P:System.Windows.WindowExtensions.MainWindowHandle">
+            <summary>
+            Gets the main window handle in designtime
+            </summary>
+        </member>
+        <member name="M:System.ServiceProviderExtensions.GetService``1(Core.Api.Service.IServiceContainerCF)">
+            <summary>
+            Gets the service object of the specified type.
+            </summary>
+        </member>
+        <member name="M:System.ServiceProviderExtensions.GetService``1(System.IServiceProvider)">
+            <summary>
+            Gets the service object of the specified type.
+            </summary>
+        </member>
+        <member name="M:System.StringExtensions.TakeRight(System.String,System.Int32)">
+            <summary>
+            Returns the specified amount of characters from the end (last symbols) of the string.
+            </summary>
+            <param name="text">The string to get substring from.</param>
+            <param name="numberOfCharacters">The number of characters to count from the string end.</param>
+            <returns>A substring that equals to n-last characters in the initial string.</returns>
+        </member>
+        <member name="M:System.StringExtensions.AllDigits(System.String)">
+            <summary>
+            Verifies that all characters in string are digits. No whitespace, decimalsigns or separatorsigns allowed 
+            </summary>
+        </member>
+        <member name="M:System.StringExtensions.OrDefaultPropertyIfNull(System.String,System.Object)">
+            <summary>
+            Gets the property name if not null; otherwise the default property of specified target.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.50.73.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Home.DigitalClock" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.green.Text1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.Text" TargetProperty="FontFamily" Source="Arial Black" />
+        <Item Target="Home.settings" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.LinearMeter1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.Text14" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric6" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric4" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric7" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric1" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.Text11" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.GSR_Banner.Text2" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.GSR_Banner.Text3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.GSR_Banner.Text4" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.LSR_Banner.Text5" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.LSR_Banner.Text6" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.LSR_Banner.Text7" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.finished.Text8" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.finished.Text9" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.finished.Group5.AnalogNumeric2" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.finished.Group5.AnalogNumeric3" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.blue.Group11.Text13" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.amber.Group1.Text10" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.estop.Text12" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric8" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.AnalogNumeric9" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.Group.Text15" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Home.Group.Button1" TargetProperty="FontFamily" Source="Tahoma" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Home.green" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.STATE" />
+        <Item Target="Home.green.SymbolViewbox" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.STATE" />
+        <Item Target="Home.LinearMeter1" TargetProperty="Value" Source="Tags.CurrentPressure" />
+        <Item Target="Home.AnalogNumeric6" TargetProperty="Value" Source="Tags.TargetPressure350" />
+        <Item Target="Home.AnalogNumeric4" TargetProperty="Value" Source="Tags.TargetPressure350" />
+        <Item Target="Home.AnalogNumeric5" TargetProperty="Value" Source="Tags.TargetPressure350" />
+        <Item Target="Home.AnalogNumeric7" TargetProperty="Value" Source="Tags.manifold" />
+        <Item Target="Home.AnalogNumeric1" TargetProperty="Value" Source="Tags.TargetPressure350" />
+        <Item Target="Home.AnalogNumeric1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.PressureSetting" />
+        <Item Target="Home.AnalogNumeric" TargetProperty="Value" Source="Tags.PressureSetting" />
+        <Item Target="Home.GSR_Banner" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.GSR" />
+        <Item Target="Home.LSR_Banner" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LSR" />
+        <Item Target="Home.out_of_order" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.OutOfOrder" />
+        <Item Target="Home.finished" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.STATE" />
+        <Item Target="Home.finished.Group5.AnalogNumeric2" TargetProperty="Value" Source="Tags.InitialPressure" />
+        <Item Target="Home.finished.Group5.AnalogNumeric3" TargetProperty="Value" Source="Tags.FinalPressure" />
+        <Item Target="Home.blue" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.STATE" />
+        <Item Target="Home.amber" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.STATE" />
+        <Item Target="Home.amber.Group1.SymbolViewbox4" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.STATE" />
+        <Item Target="Home.estop" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.STATE" />
+        <Item Target="Home.AnalogNumeric8" TargetProperty="Value" Source="Tags.TargetPressure700" />
+        <Item Target="Home.AnalogNumeric8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.PressureSetting" />
+        <Item Target="Home.AnalogNumeric9" TargetProperty="Value" Source="Tags.ActiveBank" />
+        <Item Target="Home.Group" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.STATE" />
+        <Item xsi:type="ActionItem" Target="Home" TargetProperty="Actions" Source="Tags.STATE" Event="Opened" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects">
+          <Details>
+            <Detail>
+              <Key>DigitalClock</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Picture</Key>
+              <Value>5</Value>
+            </Detail>
+            <Detail>
+              <Key>SymbolViewbox</Key>
+              <Value>4</Value>
+            </Detail>
+            <Detail>
+              <Key>Label</Key>
+              <Value>16</Value>
+            </Detail>
+            <Detail>
+              <Key>Rectangle</Key>
+              <Value>7</Value>
+            </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>LinearMeter</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>AnalogNumericFX</Key>
+              <Value>10</Value>
+            </Detail>
+            <Detail>
+              <Key>AnimatedPicture</Key>
+              <Value>1</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="Home.green.SymbolViewbox" Source="Home.m_SymbolViewbox.bmp" />
+        <Item Target="Home.green.SymbolViewbox1" Source="Home.m_SymbolViewbox1.bmp" />
+        <Item Target="Home.LinearMeter1" Source="Home.m_LinearMeter1.bmp" />
+        <Item Target="Home.amber.Group1.SymbolViewbox5" Source="Home.m_SymbolViewbox5.bmp" />
+        <Item Target="Home.amber.Group1.SymbolViewbox4" Source="Home.m_SymbolViewbox4.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Home.settings" TargetProperty="Actions" Source="Maintenance" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>47</ObjectsCount>
+          <ScreenName>Home</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="2">
+          <ScreenName>Home</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Home" TargetProperty="Actions" Source="Tags.STATE" Event="Opened" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Home.Picture" Source="logo (1)" Width="207" Height="32" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture3" Source="kisspng-picsart-photo-studio-editing-bubbles-png-clipart-5a79e3fe09a6d6.9350477015179376620395" Width="813" Height="610" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.GSR_Banner.Picture1" Source="240_f_209172657_md2eru6yslktcejr33zfguoluew5oig0" Width="884" Height="240" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.LSR_Banner.Picture2" Source="240_f_209172657_md2eru6yslktcejr33zfguoluew5oig0" Width="884" Height="240" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.out_of_order" Source="360_f_399566794_qm3aysm5iwgzyqmsb4cvnzzmru1yvavb-removebg-preview" Width="718" Height="426" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.blue.Group11.AnimatedGIF" Source="icon" Width="29" Height="29" IsAnimated="true" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

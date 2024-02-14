@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.50.73.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DefaultSettings.targetPressure700" TargetProperty="Value" Source="Tags.TargetPressure700" />
+        <Item Target="DefaultSettings.stall_threshold" TargetProperty="Value" Source="Tags.STALL_THRESHOLD" />
+        <Item Target="DefaultSettings.min_allowed_pressure" TargetProperty="Value" Source="Tags.MIN_ALLOWED_PRESSURE" />
+        <Item Target="DefaultSettings.delata_psi_time" TargetProperty="Value" Source="Tags.DELTA_PSI_TIME" />
+        <Item Target="DefaultSettings.fill_timeout" TargetProperty="Value" Source="Tags.FILL_TIMEOUT" />
+        <Item Target="DefaultSettings.second_check" TargetProperty="Value" Source="Tags.SECOND_CHECK" />
+        <Item Target="DefaultSettings.carr_moving_avg_size" TargetProperty="Value" Source="Tags.CARR_MOVING_AVG" />
+        <Item Target="DefaultSettings.disp_moving_avg_size" TargetProperty="Value" Source="Tags.DISP_MOVING_AVG" />
+        <Item Target="DefaultSettings.targetPressure350" TargetProperty="Value" Source="Tags.TargetPressure350" />
+        <Item Target="DefaultSettings.psi_tol" TargetProperty="Value" Source="Tags.PSI_LOSS_TOL" />
+        <Item Target="DefaultSettings.h2_toll" TargetProperty="Value" Source="Tags.H2SNIFFER_TOL" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>
