@@ -115,12 +115,12 @@ void loop() {
 // Button debounces
   if (digitalRead(GB)) {if(!debouncer0){ debouncer0 = millis(); }}
   else{debouncer0 = 0;}
-  if (millis() - debouncer0 > 150 && debouncer0){ greenButton = true; }
+  if (millis() - debouncer0 > 1000 && debouncer0){ greenButton = true; }
   else{greenButton = false;}
 
   if (digitalRead(RB)) {if(!debouncer1){ debouncer1 = millis(); }}
   else{debouncer1 = 0;}
-  if (millis() - debouncer1 > 150 && debouncer1){ redButton = true; }
+  if (millis() - debouncer1 > 3000 && debouncer1){ redButton = true; }
   else{redButton = false;}
 
   if(!digitalRead(LSR)){
