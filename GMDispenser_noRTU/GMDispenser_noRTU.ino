@@ -57,7 +57,7 @@ void setup() {
     else{Serial.println("Unable to connect to hmi!");delay(100);resetFunc();}
   }
 */
-  matrixSetup("MobileRefueler", "Disp v4.1.1");  //M master
+  matrixSetup("MobileRefueler", "Disp 4.1.1 noRTU");  //M master
 
   for (int i = 0; i < MOVING_AVG_SIZE; i++) {
     double t = (analogRead(PT) - 200.0) / 0.084;
@@ -94,10 +94,10 @@ void loop() {
   if (!timer[2]) { timer[2] = millis(); }
   if (millis() - timer[2] > 100) {
     int temp = analogRead(PT);
-
+    Serial.println(temp);
     if (0 <= temp < 15000) {
       double t = (temp - 200.0) / 0.084;
-      if(t < 14){t = 14.42;}
+      //if(t < 14){t = 14.42;}
       vehiclePT.addValue(t);  //Read PT value
     }
     timer[2] = millis();
